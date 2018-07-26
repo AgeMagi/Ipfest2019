@@ -1,14 +1,31 @@
 .navbar {
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 75px;
+    padding-top: 20px;
 
     background-image: url('../../images/Orange Header.png');
-    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-color: aqua;
+    background-size: 100% 70%;
+
     height: 296px;
 }
 
-.logo-navbar {
+.navbar-link {
+    margin: auto;
+    padding-top: 130px;
+}
+
+.navbar-link h1 {
+    font-size: 19px;
+    font-family: 'Chub Gothic';
+    background: -webkit-linear-gradient(#0066ff, #66ccff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-align: center;
+}
+
+Image {
+    margin-left: auto;
+    margin-right: auto;
 }
