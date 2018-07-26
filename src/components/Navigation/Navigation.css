@@ -1,0 +1,14 @@
+.navbar {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 75px;
+
+    background-image: url('../../images/Orange Header.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    height: 296px;
+}
+
+.logo-navbar {
+}
