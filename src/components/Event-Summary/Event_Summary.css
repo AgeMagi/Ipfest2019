@@ -3,13 +3,18 @@
     src: url("../../fonts/Watchword_bold_demo.otf")
 }
 
+h1 {
+    font-family: titleFont;
+}
+
 .event-summary-container {
     background-image: url("../../images/Global\ Map1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
-    margin-top: 720px;
+    margin-top: 730px;
     text-align: center;
+    
 }
 
 .event-summary-text {
@@ -21,27 +26,13 @@
     transform: translate(-50%, -50%)
 }
 
-.event-type {
+.event-type-image {
     background: url("../../images/Background\ log.png") no-repeat center;
     background-size: 130px auto;
     
     min-height: 142.5px;
 }
 
-.event-type-image {
-    width: auto;
-    height: auto;
-}
-
-.event-type-image {
-    display: block;
-    margin: auto; 
-}
-
 .event-type-image img {
-    z-index: 10;
-}
-
-h1 {
-    font-family: titleFont;
+    padding-top: 50px;
 }

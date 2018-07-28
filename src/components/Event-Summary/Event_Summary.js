@@ -20,26 +20,47 @@ export default class Event_Summary extends Component {
                         </Col>
                         <Col sm="6">
                             <Row className="justify-content-sm-center">
-                                <Col sm="4" className="event-type"> 
+                                <Col sm="4"> 
                                     <div className="event-type-image">
                                         <img 
                                             src={require("../../images/Synergistic.png")}
                                         />
                                     </div>
+                                    <p>Synergistic</p>
                                 </Col>
-                                <Col sm="4" className="event-type"> 
-                                
+                                <Col sm="4"> 
+                                    <div className="event-type-image">
+                                        <img 
+                                            src={require("../../images/Insightful.png")}
+                                        />
+                                    </div>
+                                    <p>Insightful</p>
                                 </Col>
-                                <Col sm="4" className="event-type"> 
-                                
+                                <Col sm="4"> 
+                                    <div className="event-type-image">
+                                        <img 
+                                            src={require("../../images/Experience.png")}
+                                        />
+                                    </div>
+                                    <p>Experience</p>
                                 </Col>
                             </Row>
                             <Row className="justify-content-sm-center">
-                                <Col sm="4" className="event-type"> 
-                                    
+                                <Col sm="4"> 
+                                    <div className="event-type-image">
+                                        <img 
+                                            src={require("../../images/Innovative.png")}
+                                        />
+                                    </div>
+                                    <p>Innovative</p>
                                 </Col>
-                                <Col sm="4" className="event-type"> 
-                                
+                                <Col sm="4"> 
+                                    <div className="event-type-image">
+                                        <img 
+                                            src={require("../../images/Impactfuls.png")}
+                                        />
+                                    </div>
+                                    <p>Impactful</p>
                                 </Col>
                             </Row>
                         </Col>

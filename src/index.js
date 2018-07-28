@@ -8,13 +8,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Navigation from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
-import Event_Summary from './components/Event-Summary/Event_Summary'
+import Event_Summary from './components/Event-Summary/Event_Summary';
+import News from './components/News/News';
 
 ReactDOM.render(
     <div>
         <Navigation />
         <Header />
         <Event_Summary />
+        <News />
     </div>
     , 
     document.getElementById('root')
