@@ -26,7 +26,7 @@ export default class EventSummary extends Component {
                                             src={require("../../images/Synergistic.png")}
                                         />
                                     </div>
-                                    <p>Synergistic</p>
+                                    <p><strong>Synergistic</strong></p>
                                 </Col>
                                 <Col sm="4"> 
                                     <div className="event-type-image">
@@ -34,7 +34,7 @@ export default class EventSummary extends Component {
                                             src={require("../../images/Insightful.png")}
                                         />
                                     </div>
-                                    <p>Insightful</p>
+                                    <p><strong>Insightful</strong></p>
                                 </Col>
                                 <Col sm="4"> 
                                     <div className="event-type-image">
@@ -42,7 +42,7 @@ export default class EventSummary extends Component {
                                             src={require("../../images/Experience.png")}
                                         />
                                     </div>
-                                    <p>Experience</p>
+                                    <p><strong>Experience</strong></p>
                                 </Col>
                             </Row>
                             <Row className="justify-content-sm-center">
@@ -52,7 +52,7 @@ export default class EventSummary extends Component {
                                             src={require("../../images/Innovative.png")}
                                         />
                                     </div>
-                                    <p>Innovative</p>
+                                    <p><strong>Innovative</strong></p>
                                 </Col>
                                 <Col sm="4"> 
                                     <div className="event-type-image">
@@ -60,38 +60,12 @@ export default class EventSummary extends Component {
                                             src={require("../../images/Impactfuls.png")}
                                         />
                                     </div>
-                                    <p>Impactful</p>
+                                    <p><strong>Impactful</strong></p>
                                 </Col>
                             </Row>
                         </Col>
                     </Row>
                 </Container>
-                {/* <Grid>
-                    <Grid.Row textAlign='center'>
-                        <Grid.Column width={6}>
-                            <h1>Tackling the Challenge</h1>
-                            <p>As the demand of energy increases, we are responsible 
-                                to provide the sustainibility of energy. In order to 
-                                aim it, we are supposed to think globally and visionary 
-                                along with our values in order to get the glory.</p>
-                        </Grid.Column>
-                        <Grid.Column className="event-type"width={2}>
-                            <img src={require("../../images/Synergistic.png")}/>
-                        </Grid.Column>
-                        <Grid.Column width={2}>
-                            HAII
-                        </Grid.Column>
-                        <Grid.Column width={2}>
-                            HAII
-                        </Grid.Column>
-                        <Grid.Column width={2}>
-                            HAII
-                        </Grid.Column>
-                        <Grid.Column width={2}>
-                            HAII
-                        </Grid.Column>
-                    </Grid.Row>
-                </Grid> */}
             </div>
         );
     }

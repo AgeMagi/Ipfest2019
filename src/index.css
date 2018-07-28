@@ -1,0 +1,13 @@
+@font-face {
+    font-family: contentFont;
+    src: url('./fonts/Fundamental\ Brigade\ Schlank.ttf');
+}
+
+@font-face {
+    font-family: titleFont;
+    src: url('./fonts/Watchword_bold_demo.otf');
+}
+
+p {
+    font-family: contentFont;
+}

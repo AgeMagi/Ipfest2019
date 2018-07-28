@@ -10,7 +10,8 @@ import Navigation from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
 import EventSummary from './components/Event-Summary/EventSummary';
 import News from './components/News/News';
-import FurtherInqueries from './components/Further-Inqueries/FurtherInqueries';
+import FurtherInqueries from './components/Further-Inqueries/FurtherInquiries';
+import Footer from './components/Footer/Footer';
 
 ReactDOM.render(
     <div>
@@ -19,6 +20,7 @@ ReactDOM.render(
         <EventSummary />
         <News />
         <FurtherInqueries />
+        <Footer />
     </div>
     , 
     document.getElementById('root')
