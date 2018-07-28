@@ -1,0 +1,38 @@
+@font-face {
+    font-family: titleFont;
+    src: url("../../fonts/Watchword_bold_demo.otf")
+}
+
+.event-summary-container {
+    background-image: url("../../images/Global\ Map1.png");
+    background-repeat: no-repeat;
+
+    margin-top: 720px;
+    text-align: center;
+}
+
+.event-type {
+    background-image: url("../../images/Background\ log.png");
+    background-repeat: no-repeat;
+    background-size: 142.5px auto;
+    
+    max-width: 142.5px;
+    flux: none;
+}
+
+.event-type-image {
+    width: auto;
+    height: auto;
+}
+
+.event-type img {
+    top: 50%;
+    left: 50%;
+    z-index: 100px;
+
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: titleFont;
+}
