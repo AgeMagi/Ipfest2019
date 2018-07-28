@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 import { Container, Row, Col } from 'reactstrap';
 
-import './Event_Summary.css'
-export default class Event_Summary extends Component {
+import './EventSummary.css'
+export default class EventSummary extends Component {
     render() {
         return(
-            <div>
-                <Container className="event-summary-container">
+            <div className="event-summary-container">
+                <Container>
                     <Row>
                         <Col sm="6"> 
                             <div className="event-summary-text">

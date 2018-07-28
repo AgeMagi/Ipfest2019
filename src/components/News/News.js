@@ -28,8 +28,8 @@ const items = [
 export default class News extends Component {
     render() {
         return(
-            <div>
-                <Container className="news-container">
+            <div className="news-container">
+                <Container>
                     <h2>Latest News</h2>
                     <h1>News Title Here</h1>
                     <Row className="news-content-container">
