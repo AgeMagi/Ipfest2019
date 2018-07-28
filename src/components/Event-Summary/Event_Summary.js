@@ -10,16 +10,22 @@ export default class Event_Summary extends Component {
                 <Container className="event-summary-container">
                     <Row>
                         <Col sm="6"> 
-                            <h1>Tackling the Challenge</h1>
-                            <p>As the demand of energy increases, we are responsible 
-                                to provide the sustainibility of energy. In order to 
-                                aim it, we are supposed to think globally and visionary 
-                                along with our values in order to get the glory.</p>
+                            <div className="event-summary-text">
+                                <h1>Tackling the Challenge</h1>
+                                <p>As the demand of energy increases, we are responsible 
+                                    to provide the sustainibility of energy. In order to 
+                                    aim it, we are supposed to think globally and visionary 
+                                    along with our values in order to get the glory.</p>
+                            </div>   
                         </Col>
                         <Col sm="6">
-                            <Row>
+                            <Row className="justify-content-sm-center">
                                 <Col sm="4" className="event-type"> 
-                                
+                                    <div className="event-type-image">
+                                        <img 
+                                            src={require("../../images/Synergistic.png")}
+                                        />
+                                    </div>
                                 </Col>
                                 <Col sm="4" className="event-type"> 
                                 
@@ -28,13 +34,11 @@ export default class Event_Summary extends Component {
                                 
                                 </Col>
                             </Row>
-                            <Row>
-                                <Col sm="6" className="event-type"> 
-                                    <div className="event-type-image">
-
-                                    </div>
+                            <Row className="justify-content-sm-center">
+                                <Col sm="4" className="event-type"> 
+                                    
                                 </Col>
-                                <Col sm="6" className="event-type"> 
+                                <Col sm="4" className="event-type"> 
                                 
                                 </Col>
                             </Row>
