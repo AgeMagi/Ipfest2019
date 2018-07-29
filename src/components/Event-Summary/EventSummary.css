@@ -35,3 +35,7 @@ h1 {
 .event-type-image img {
     padding-top: 50px;
 }
+
+.right img{
+    padding-left: 10px;
+}

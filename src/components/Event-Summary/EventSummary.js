@@ -29,7 +29,7 @@ export default class EventSummary extends Component {
                                     <p><strong>Synergistic</strong></p>
                                 </Col>
                                 <Col sm="4"> 
-                                    <div className="event-type-image">
+                                    <div className="right event-type-image">
                                         <img 
                                             src={require("../../images/Insightful.png")}
                                         />
@@ -37,7 +37,7 @@ export default class EventSummary extends Component {
                                     <p><strong>Insightful</strong></p>
                                 </Col>
                                 <Col sm="4"> 
-                                    <div className="event-type-image">
+                                    <div className="right event-type-image">
                                         <img 
                                             src={require("../../images/Experience.png")}
                                         />
@@ -47,7 +47,7 @@ export default class EventSummary extends Component {
                             </Row>
                             <Row className="justify-content-sm-center">
                                 <Col sm="4"> 
-                                    <div className="event-type-image">
+                                    <div className="right event-type-image">
                                         <img 
                                             src={require("../../images/Innovative.png")}
                                         />
