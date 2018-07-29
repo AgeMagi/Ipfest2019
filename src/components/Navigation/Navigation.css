@@ -1,3 +1,8 @@
+@font-face {
+    font-family: navbarFont;
+    src: url("../../fonts/chubgothic_1.ttf");
+}
+
 .navbar {
     padding-left: 100px;
     padding-right: 100px;
@@ -19,8 +24,8 @@
 
 .navbar-link h1 {
     font-size: 19px;
-    font-family: 'Chub Gothic';
-    background: -webkit-linear-gradient(#0066ff, #66ccff);
+    font-family: 'navbarFont';
+    background: -webkit-linear-gradient(#028889, #7cddd6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
