@@ -1,0 +1,30 @@
+.details-event {
+    background-image: url('../../../images/Display\ Background.png');
+    background-size: 100% 100%;
+
+    text-align: center;
+    
+    padding-top: 100px;
+    padding-bottom: 250px;
+}
+
+.details-event h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.event-type {
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin-top: 50px;
+}
+
+.event-type h3 {
+    color: white;
+}
+

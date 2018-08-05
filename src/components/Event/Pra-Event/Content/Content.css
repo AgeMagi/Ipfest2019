@@ -1,0 +1,46 @@
+.content-title {
+    text-align: right;
+}
+
+.content {
+    margin-top: 30px; 
+}
+
+.content-text {
+    text-align: left;
+}
+
+.content-border {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.content-image img {
+    max-height: 270px;   
+}
+
+.event-content {
+    padding-bottom: 50px;
+
+    text-align: center;
+
+    background-color: #f8f9fa;
+}
+
+.event-content h1 {
+    font-size: 60px;
+}
+
+.top-content-border {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.bottom-content-border {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
