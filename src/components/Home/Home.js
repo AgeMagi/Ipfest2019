@@ -11,12 +11,10 @@ export default class Home extends Component {
     render() {
         return(
             <div>
-                <Navigation />
                 <Header />
                 <EventSummary />
                 <News />
                 <FurtherInqueries />
-                <Footer />
             </div>
         );
     }

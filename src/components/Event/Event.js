@@ -9,10 +9,8 @@ export default class Event extends Component {
     render() {
         return(
             <div>
-                <Navigation />
                 <HeaderEvent />
                 <Details />
-                <Footer />
             </div>
         )
     }

@@ -6,11 +6,12 @@ import {
 	NavbarBrand,
 	Nav,
 	NavItem,
-	NavLink,
 	UncontrolledDropdown,
 	DropdownToggle,
 	DropdownMenu,
 	DropdownItem } from 'reactstrap';
+
+import { NavLink } from 'react-router-dom';
 
 import './Navigation.css';
 
@@ -19,19 +20,33 @@ export default class Navigation extends React.Component {
 		super(props);
 
 		this.toggle = this.toggle.bind(this);
+		this.openDropdown = this.openDropdown.bind(this);
+		this.closeDropdown = this.closeDropdown.bind(this);
 		this.state = {
-		isOpen: false
+			isOpen: false,
+			dropdownOpen: false
 		};
 	}
+
 	toggle() {
-		this.setState({
-		isOpen: !this.state.isOpen
-		});
+		this.setState(prevState => ({
+			isOpen: !this.state.isOpen,
+			dropdownOpen: !prevState.dropdownOpen
+		}));
 	}
+
+	openDropdown() {
+		this.setState({dropdownOpen: true})
+	}
+
+	closeDropdown() {
+		this.setState({dropdownOpen: false})
+	}
+
 	render() {
 		return (
 		<div>
-			<Navbar color="light" className="navbar" light expand="md">
+			<Navbar className="navbar" light expand="md">
 			<NavbarBrand href="/">
 				<img className="logo" src={require('../../images/Logo.png')}/>
 			</NavbarBrand>
@@ -39,27 +54,47 @@ export default class Navigation extends React.Component {
 			<Collapse className="navbar-collapse" isOpen={this.state.isOpen} navbar>
 				<Nav className="ml-auto" navbar>
 					<NavItem>
-						<NavLink className="navbar-link" href="/components/">
-							<h1>ABOUT</h1>
-							<img src={require("../../images/Layer 1.png")} />
+						<NavLink className="navbar-link" to="/components/">
+							<h1><strong>ABOUT</strong></h1>
+						</NavLink>
+					</NavItem>
+					<UncontrolledDropdown onMouseOver={this.openDropdown} onMouseLeave={this.closeDropdown} isOpen={this.state.dropdownOpen} nav inNavbar>
+						<DropdownToggle nav noCaret>
+							<NavLink className="navbar-link" to="/event/">
+								<h1><strong>EVENTS</strong></h1>
+							</NavLink>
+						</DropdownToggle>
+						<DropdownMenu right>
+							<DropdownItem>
+								<NavLink className="navbar-link" to="/event/pre-event">
+									<h1><strong>PRE-EVENT</strong></h1>
+								</NavLink>
+							</DropdownItem>
+							<DropdownItem>
+								<NavLink className="navbar-link" to="/event/main-event">
+									<h1><strong>MAIN EVENT</strong></h1>
+								</NavLink>
+							</DropdownItem>
+						</DropdownMenu>
+					</UncontrolledDropdown>
+					<NavItem>
+						<NavLink className="navbar-link" to="/components/">
+							<h1><strong>COMPETITIONS</strong></h1>
 						</NavLink>
 					</NavItem>
 					<NavItem>
-						<NavLink className="navbar-link" href="/components/">
-							<h1>EVENT</h1>
-							<img src={require("../../images/Layer 1.png")} />
+						<NavLink className="navbar-link" to="/components/">
+							<h1><strong>REGISTRATION</strong></h1>
 						</NavLink>
 					</NavItem>
 					<NavItem>
-						<NavLink className="navbar-link" href="/components/">
-							<h1>REGISTRATION</h1>
-							<img src={require("../../images/Layer 1.png")} />
+						<NavLink className="navbar-link" to="/components/">
+							<h1><strong>SPONSORS</strong></h1>
 						</NavLink>
 					</NavItem>
 					<NavItem>
-						<NavLink className="navbar-link" href="/components/">
-							<h1>SPONSOR & MEDIA</h1>
-							<img src={require("../../images/Layer 1.png")} />
+						<NavLink className="navbar-link" to="/components/">
+							<h1><strong>FAQ</strong></h1>
 						</NavLink>
 					</NavItem>
 				</Nav>

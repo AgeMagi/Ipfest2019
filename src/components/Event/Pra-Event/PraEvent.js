@@ -8,9 +8,7 @@ export default class PraEvent extends Component {
     render() {
         return(
             <div>
-                <Navigation />
                 <Content />
-                <Footer />
             </div>
         );
     }

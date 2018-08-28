@@ -1,0 +1,29 @@
+.event-competition {
+    text-align: center;
+
+    padding-top: 30px;
+}
+
+.competition-title img {
+    max-width: 456px;
+    width: 100%;
+}
+
+.event-competition h1 {
+    font-size: 55px;
+}
+
+.competition {
+    text-align: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.competition-topic {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}

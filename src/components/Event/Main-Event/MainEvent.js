@@ -10,9 +10,7 @@ export default class MainEvent extends Component {
     render() {
         return(
             <div>
-                <Navigation />
                 <Content />
-                <Footer />
             </div>
         );
     }
