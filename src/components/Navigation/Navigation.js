@@ -67,12 +67,12 @@ export default class Navigation extends React.Component {
 						<DropdownMenu right>
 							<DropdownItem>
 								<NavLink className="navbar-link" to="/event/pre-event">
-									<h1><strong>PRE-EVENT</strong></h1>
+									<h1><strong>PRE-EVENTS</strong></h1>
 								</NavLink>
 							</DropdownItem>
 							<DropdownItem>
 								<NavLink className="navbar-link" to="/event/main-event">
-									<h1><strong>MAIN EVENT</strong></h1>
+									<h1><strong>MAIN EVENTS</strong></h1>
 								</NavLink>
 							</DropdownItem>
 						</DropdownMenu>

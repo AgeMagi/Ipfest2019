@@ -13,13 +13,16 @@
     color: white;
 }
 
+.details-event a:hover {
+    text-decoration: none;
+} 
+
 .event-type {
     border-width: 4px;
     border-style: solid;
     border-color: white;
 
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
 
     margin-top: 50px;
 }
@@ -28,3 +31,10 @@
     color: white;
 }
 
+.event-type:hover {
+    border-color: grey;
+}
+
+.event-type:hover h3 {
+    color: grey;
+}
