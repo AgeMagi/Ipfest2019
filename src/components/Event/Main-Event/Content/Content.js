@@ -46,9 +46,11 @@ export default class Content extends Component {
         return(
             <div className='event-content'>
                 <Container>
-                    <h1>
-                        MAIN-EVENTS
-                    </h1>
+                    <div className='title'>
+                        <img 
+                            src={require('../../../../images/Main Events/3_2_Main Events.png')}
+                        />    
+                    </div>
                     <Row className='content'>
                         <Col sm='6'>
                             <Row>

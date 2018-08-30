@@ -3,7 +3,7 @@
 }
 
 .content {
-    margin-top: 30px; 
+    margin-top: 50px; 
 }
 
 .content-text {
@@ -18,15 +18,25 @@
 }
 
 .content-image img {
-    max-height: 270px;   
+    height: 100%;   
+}
+
+.content .carousel {
+    height: 100%;
+}
+
+.content .carousel-inner {
+    height: 100%;
+}
+
+.content .carousel-item {
+    height: 100%;
 }
 
 .event-content {
     padding-bottom: 50px;
 
     text-align: center;
-
-    background-color: #f8f9fa;
 }
 
 .event-content h1 {

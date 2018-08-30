@@ -54,7 +54,7 @@ export default class Navigation extends React.Component {
 			<Collapse className="navbar-collapse" isOpen={this.state.isOpen} navbar>
 				<Nav className="ml-auto" navbar>
 					<NavItem>
-						<NavLink className="navbar-link" to="/components/">
+						<NavLink className="navbar-link" to="/about/">
 							<h1><strong>ABOUT</strong></h1>
 						</NavLink>
 					</NavItem>
@@ -78,12 +78,12 @@ export default class Navigation extends React.Component {
 						</DropdownMenu>
 					</UncontrolledDropdown>
 					<NavItem>
-						<NavLink className="navbar-link" to="/components/">
+						<NavLink className="navbar-link" to="/competition/">
 							<h1><strong>COMPETITIONS</strong></h1>
 						</NavLink>
 					</NavItem>
 					<NavItem>
-						<NavLink className="navbar-link" to="/components/">
+						<NavLink className="navbar-link" to="/registration/">
 							<h1><strong>REGISTRATION</strong></h1>
 						</NavLink>
 					</NavItem>

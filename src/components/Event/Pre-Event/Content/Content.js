@@ -81,9 +81,11 @@ export default class Content extends Component {
         return(
             <div className='event-content'>
                 <Container>
-                    <h1>
-                        PRA-EVENTS
-                    </h1>
+                    <div className='title'>
+                        <img 
+                            src={require('../../../../images/Pre-Events/3_1_Pre-Events.png')}
+                        />
+                    </div>
                     <Row className='content'>
                         <Col sm='6'>
                             <Row>
@@ -336,7 +338,7 @@ export default class Content extends Component {
                             <UncontrolledCarousel items={items6}/>
                         </Col>
                     </Row>
-                </Container>
+                </Container>    
             </div>
         );
     }

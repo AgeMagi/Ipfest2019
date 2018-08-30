@@ -1,0 +1,18 @@
+.about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about h2 {
+    color: #028889;
+}
+
+.about-video {
+    background-color: aqua;
+}
+
+.organogram {
+    text-align: center;
+
+    padding-bottom: 50px;
+}

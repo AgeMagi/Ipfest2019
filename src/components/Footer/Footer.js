@@ -68,7 +68,7 @@ export default class Footer extends Component {
                         </Col>
                     </Row>
                 </Container>
-                <p className="footer-copyright">copyright © ipfest2019.com | powered by @muhhabibih@gmail.com</p>
+                <p className="footer-copyright">copyright © ipfest2019.com | powered by muhhabibih@gmail.com</p>
             </div>
         );
     }

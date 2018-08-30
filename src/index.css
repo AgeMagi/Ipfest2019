@@ -8,6 +8,17 @@
     src: url('./fonts/Watchword_bold_demo.otf');
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: titleFont;
+}
+
 p {
     font-family: contentFont;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    text-align: center;
 }
