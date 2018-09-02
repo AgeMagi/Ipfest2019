@@ -13,7 +13,7 @@ import {
 import './FurtherInquiries.css';
 
 const keys = require('../../../config/keys');
-const GOOGLE_FORM_URL = `https://docs.google.com/forms/d/${keys.googleFormID}/` 
+const GOOGLE_FORM_URL = `https://docs.google.com/forms/d/${keys.googleFormID}/formResponse` 
 
 var fields = {
     'fi-name': 'entry.806781434',
