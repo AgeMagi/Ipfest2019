@@ -32,7 +32,7 @@ class FurtherInquiries extends Component {
     renderField(field) {
         return (
             <Col sm={10}>
-                <input 
+                <Input 
                     className="form-control" 
                     type={field.type} 
                     placeholder={field.placeholder} 
