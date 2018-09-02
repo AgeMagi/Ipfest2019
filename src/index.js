@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import registerServiceWorker from './registerServiceWorker';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+import reducers from './reducers';
 
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,8 +19,10 @@ import Footer from './components/Footer/Footer';
 import Registration from './components/Registration/Registration';
 import About from './components/About/About';
 
+const store = createStore(reducers);
+
 ReactDOM.render(
-    <div>
+    <Provider store={store}>
         <BrowserRouter>
             <div>
                 <Navigation />
@@ -33,8 +38,6 @@ ReactDOM.render(
                 <Footer />
             </div>
         </BrowserRouter>
-    </div>
-    , 
-    document.getElementById('root')
+    </Provider>
+    , document.getElementById('root')
 );
-registerServiceWorker();

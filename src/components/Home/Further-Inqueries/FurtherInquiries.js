@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Field, reduxForm } from 'redux-form';
 
 import { 
     FormGroup, 
@@ -11,8 +12,62 @@ import {
 
 import './FurtherInquiries.css';
 
-export default class FurtherInquiries extends Component {
+const keys = require('../../../config/keys');
+const GOOGLE_FORM_URL = `https://docs.google.com/forms/d/${keys.googleFormID}/` 
+
+var fields = {
+    'fi-name': 'entry.806781434',
+    'fi-email': 'entry.1302061879',
+    'fi-subject': 'entry.453172435',
+    'fi-message': 'entry.859823685',
+}
+
+var $ = require('jquery');
+
+class FurtherInquiries extends Component {
+    constructor(props) {
+        super(props);
+    }
+
+    renderField(field) {
+        return (
+            <Col sm={10}>
+                <input 
+                    className="form-control" 
+                    type={field.type} 
+                    placeholder={field.placeholder} 
+                    name={field.name}
+                    id={field.id}
+                    {...field.input}
+                />
+            </Col>
+        )
+    }
+
+    submit(values) {
+        let post_data = {};
+
+        for (var field in fields) {
+           post_data[fields[field]] = values[field];
+        }
+
+        $.post({
+            url: GOOGLE_FORM_URL,
+            data: post_data,
+            complete: () => {
+                console.log(post_data)
+            }
+        })
+
+        console.log(post_data);
+
+        console.log(keys.googleFormID)
+        console.log(values);
+    }
+
     render() {
+        const { handleSubmit } = this.props;
+
         return(
             <div className="further-inquiries-container">
                 <Container>
@@ -21,33 +76,57 @@ export default class FurtherInquiries extends Component {
                         <p>Write a message down here. We'll get back</p>
                         <p>to your e-mail as fast as possible</p>
                     </div>
-                    <FormGroup row>
-                        <Label for="text" sm={2}><h3>NAME</h3></Label>
-                        <Col sm={10}>
-                            <Input type="text" name="fi-name" id="fi-name" placeholder="Input Your Name" />
+                    <form className="row justify-content-sm-center" onSubmit={handleSubmit(this.submit.bind(this))}>
+                        <Label for="text" sm={2}>
+                            <h3>NAME</h3>
+                        </Label>
+                        <Field 
+                            name="fi-name" 
+                            id="fi-name"
+                            placeholder="Input Your Name"
+                            type="text"
+                            component={this.renderField} 
+                        />
+                        <Label for="text" sm={2}>
+                            <h3>EMAIL</h3>
+                        </Label>
+                        <Field 
+                            name="fi-email" 
+                            id="fi-email"
+                            placeholder="Input Your E-mail"
+                            type="text"
+                            component={this.renderField} 
+                        />
+                        <Label for="text" sm={2}>
+                            <h3>SUBJECT</h3>
+                        </Label>
+                        <Field 
+                            name="fi-subject" 
+                            id="fi-subject"
+                            placeholder="Input Subject"
+                            type="text"
+                            component={this.renderField} 
+                        />
+                        <Label for="text" sm={2}>
+                            <h3>MESSAGE</h3>
+                        </Label>
+                        <Field 
+                            name="fi-message" 
+                            id="fi-message"
+                            placeholder="Input Your Message"
+                            type="textarea"
+                            component={this.renderField} 
+                        />
+                        <Col sm={3}>
+                            <Button type="submit" className='fi-button btn btn-lg btn-block'>SUBMIT</Button>
                         </Col>
-                        <Label for="fi-email" sm={2}><h3>E-MAIL</h3></Label>
-                        <Col sm={10}>
-                            <Input type="text" name="fi-email" id="fi-email" placeholder="Input Your Email" />
-                        </Col>
-                        <Label for="fi-subject" sm={2}><h3>SUBJECT</h3></Label>
-                        <Col sm={10}>
-                            <Input type="text" name="fi-subject" id="fi-subject" placeholder="Input Subject" />
-                        </Col>
-                        <Label for="fi-message" sm={2}><h3>MESSAGE</h3></Label>
-                        <Col sm={10}>
-                            <Input type="textarea" name="fi-message" id="fi-message" placeholder="Input Your Message" />
-                        </Col>
-                    </FormGroup>
-                    <FormGroup check>
-                        <Row className="justify-content-sm-center">
-                            <Col sm={3}> 
-                                <Button className="fi-button btn btn-lg btn-block">SUBMIT</Button>
-                            </Col> 
-                        </Row>  
-                    </FormGroup>
+                    </form>
                 </Container>
             </div>
         );
     }
 }
+
+export default reduxForm({
+    form: 'furtherInquiries',
+})(FurtherInquiries);

@@ -59,7 +59,7 @@ export default class Navigation extends React.Component {
 						</NavLink>
 					</NavItem>
 					<UncontrolledDropdown onMouseOver={this.openDropdown} onMouseLeave={this.closeDropdown} isOpen={this.state.dropdownOpen} nav inNavbar>
-						<DropdownToggle nav noCaret>
+						<DropdownToggle nav>
 							<NavLink className="navbar-link" to="/event/">
 								<h1><strong>EVENTS</strong></h1>
 							</NavLink>
