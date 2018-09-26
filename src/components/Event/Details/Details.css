@@ -32,9 +32,9 @@
 }
 
 .event-type:hover {
-    border-color: grey;
+    border-color: #049b88;
 }
 
 .event-type:hover h3 {
-    color: grey;
+    color: #049b88;
 }

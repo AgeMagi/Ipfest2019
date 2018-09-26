@@ -1,13 +1,24 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+    height: 100px;
+}
+
 .navbar {
     text-align: center;
-    padding-top: 10px;
+
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
 
     background-color: #363636; 
 }
 
 .logo {
-    margin-left: 50px;
-    height: 100px;
+    height: 80px;
     width: auto;
 }
 
@@ -16,9 +27,11 @@
 }
 
 .navbar-link h1 {
-    font-size: 19px;
+    font-size: 15px;
 
     padding: 5px;
+    margin-left: 15px;
+    margin-top: 25px;
 
     color: white;
 
@@ -26,13 +39,11 @@
     border-color: red;
     border-radius: 20px; 
 
-    min-width: 160px;
-
-    margin-left: 15px;
+    min-width: 130px;
 }
 
 .navbar-link:hover h1{
-    border-color: blue; 
+    border-color: #049b88;
 }
 
 .dropdown-navbar-link {
@@ -49,8 +60,12 @@
     padding-top: 0px;
 }
 
+.navbar-dropdown h1 {
+    margin-top: 0px;
+}
+
 .active h1 {
-    color: green;
+    color: #08bba6;
 }
 
 .dropdown-item:hover {

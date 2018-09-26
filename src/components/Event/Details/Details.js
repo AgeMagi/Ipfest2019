@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import { Container,
     Row,
     Col } from 'reactstrap';
@@ -13,25 +15,25 @@ export default class Details extends Component {
                     <h1> DETAILS </h1>
                     <Row className="justify-content-sm-center">
                         <Col sm='3'>
-                            <a href='pre-event'>
+                            <Link to='pre-event'>
                                 <div className='event-type'>
                                     <h3>PRE-EVENTS</h3>
                                 </div>  
-                            </a>
+                            </Link>
                         </Col>
                         <Col sm='3'>
-                            <a href='main-event'>
+                            <Link to='main-event'>
                                 <div className='event-type'>
                                     <h3>MAIN EVENTS</h3>
-                                </div>  
-                            </a>
+                                </div> 
+                            </Link>
                         </Col>
                         <Col sm='3'>
-                            <a href='/competition'>
+                            <Link to='/competition'>
                                 <div className='event-type'>
                                     <h3>COMPETITIONS</h3>
                                 </div>  
-                            </a>
+                            </Link>
                         </Col>
                     </Row>
                 </Container>

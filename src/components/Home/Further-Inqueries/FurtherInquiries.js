@@ -16,10 +16,10 @@ const keys = require('../../../config/keys');
 const GOOGLE_FORM_URL = `https://docs.google.com/forms/d/${keys.googleFormID}/formResponse` 
 
 var fields = {
-    'fi-name': 'entry.806781434',
-    'fi-email': 'entry.1302061879',
-    'fi-subject': 'entry.453172435',
-    'fi-message': 'entry.859823685',
+    'fi-name': 'entry.1544451141',
+    'fi-email': 'entry.1963978322',
+    'fi-subject': 'entry.106366864',
+    'fi-message': 'entry.546953101',
 }
 
 var $ = require('jquery');
@@ -55,14 +55,9 @@ class FurtherInquiries extends Component {
             url: GOOGLE_FORM_URL,
             data: post_data,
             complete: () => {
-                console.log(post_data)
+                alert('Your message has been submitted');
             }
         })
-
-        console.log(post_data);
-
-        console.log(keys.googleFormID)
-        console.log(values);
     }
 
     render() {

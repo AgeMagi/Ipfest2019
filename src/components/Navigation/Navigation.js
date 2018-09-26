@@ -11,7 +11,7 @@ import {
 	DropdownMenu,
 	DropdownItem } from 'reactstrap';
 
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 import './Navigation.css';
 
@@ -45,11 +45,13 @@ export default class Navigation extends React.Component {
 
 	render() {
 		return (
-		<div>
+		<div className='navigation'>
 			<Navbar className="navbar" light expand="md">
-			<NavbarBrand href="/">
-				<img className="logo" src={require('../../images/Logo.png')}/>
-			</NavbarBrand>
+			<Link to='/'>
+				<NavbarBrand href="/">
+					<img className="logo" src={require('../../images/Logo.png')}/>
+				</NavbarBrand>
+			</Link>
 			<NavbarToggler onClick={this.toggle} />
 			<Collapse className="navbar-collapse" isOpen={this.state.isOpen} navbar>
 				<Nav className="ml-auto" navbar>
@@ -66,12 +68,12 @@ export default class Navigation extends React.Component {
 						</DropdownToggle>
 						<DropdownMenu right>
 							<DropdownItem>
-								<NavLink className="navbar-link" to="/event/pre-event">
+								<NavLink className="navbar-link navbar-dropdown" to="/event/pre-event">
 									<h1><strong>PRE-EVENTS</strong></h1>
 								</NavLink>
 							</DropdownItem>
 							<DropdownItem>
-								<NavLink className="navbar-link" to="/event/main-event">
+								<NavLink className="navbar-link navbar-dropdown" to="/event/main-event">
 									<h1><strong>MAIN EVENTS</strong></h1>
 								</NavLink>
 							</DropdownItem>

@@ -21,8 +21,8 @@
 }
 
 .footer-socmed img{
-    display: block;
-    margin: auto;
+    width: 44px;
+    height: 44px;
 }
 
 .footer-content h2{
