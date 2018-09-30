@@ -1,0 +1,13 @@
+.registration-option {
+    border: 4px solid;
+    border-radius: 20px;
+    text-align: center;
+
+    padding: 15px;
+
+    margin-bottom: 20px;
+}
+
+.registration-option h2 {
+    margin-bottom: 20px;
+}

@@ -1,4 +1,12 @@
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: titleFont;
+}
+
+p {
+    font-family: contentFont;
+}
+
 .header-event-div {
     background-color: #f8f9fa;
 

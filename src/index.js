@@ -18,6 +18,8 @@ import Navigation from './components/Navigation/Navigation';
 import Footer from './components/Footer/Footer';
 import Registration from './components/Registration/Registration';
 import About from './components/About/About';
+import MainPageRegistration from './components/Registration-Form/Main-Page/MainPage';
+import OptionRegistration from './components/Registration-Form/Option/Option';
 
 const store = createStore(reducers);
 
@@ -27,6 +29,8 @@ ReactDOM.render(
             <div>
                 <Navigation />
                 <Switch>
+                    <Route path="/registration-form/option" component={ OptionRegistration } />
+                    <Route path="/registration-form" component={ MainPageRegistration } />
                     <Route path="/registration" component = { Registration } />
                     <Route path='/competition' component = { Competition} />
                     <Route path='/event/main-event' component = { MainEvent }/>

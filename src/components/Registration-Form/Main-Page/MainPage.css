@@ -1,0 +1,24 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: titleFont;
+}
+
+p {
+    font-family: contentFont;
+}
+
+.registration-guidline {
+    border: 4px solid;
+    border-radius: 20px;
+
+    padding: 15px;
+
+    margin-bottom: 20px;
+}
+
+.blue {
+    color: #049b88;
+}
+
+.red {
+    color: #f6362b;
+}

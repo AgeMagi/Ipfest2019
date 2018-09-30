@@ -1,3 +1,11 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: titleFont;
+}
+
+p {
+    font-family: contentFont;
+}
+
 .further-inquiries-container {
     background-image: url("../../../images/Rectangle\ 5.png");
     background-repeat: no-repeat;
@@ -7,11 +15,6 @@
 
     padding-top: 50px;
     padding-bottom: 30px;
-}
-
-@font-face {
-    font-family: titleFont;
-    src: url("../../../fonts/Watchword_bold_demo.otf")
 }
 
 .further-inquiries-title h1 {
