@@ -52,3 +52,36 @@ p {
 
     padding-left: 30px;
 }
+
+.registration-button a:hover {
+    text-decoration: none;
+}
+
+.registration-button h4 {
+    margin-bottom: 0px;
+    color: white;
+}
+
+.registration-button-red {
+    background-color: #bd2b21;
+    text-align: center;
+
+    border-radius: 20px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.registration-button-blue {
+    background-color: #028889;
+    text-align: center;
+
+    border-radius: 20px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import {
     Container,
@@ -49,6 +50,15 @@ export default class MainPageRegistration extends Component {
                             </li>
                         </ol>
                     </div>
+                    <Row className='justify-content-sm-center registration-button'>
+                            <Col sm={4}>
+                                <Link to='/registration-form/option'>
+                                    <div className='registration-button-blue'>
+                                        <h4>CONTINUE REGISTRATION</h4>
+                                    </div>
+                                </Link>       
+                            </Col>
+                    </Row>
                 </Container>
             </div>
         )

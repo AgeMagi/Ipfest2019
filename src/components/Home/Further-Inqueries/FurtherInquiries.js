@@ -16,10 +16,11 @@ const keys = require('../../../config/keys');
 const GOOGLE_FORM_URL = `https://docs.google.com/forms/d/${keys.googleFormID}/formResponse` 
 
 var fields = {
-    'fi-name': 'entry.1544451141',
-    'fi-email': 'entry.1963978322',
-    'fi-subject': 'entry.106366864',
-    'fi-message': 'entry.546953101',
+    'fi-id': 'entry.483246338',
+    'fi-name': 'entry.419911999',
+    'fi-email': 'entry.1984933669',
+    'fi-subject': 'entry.1540266732',
+    'fi-message': 'entry.258245962',
 }
 
 var $ = require('jquery');
@@ -46,6 +47,7 @@ class FurtherInquiries extends Component {
 
     submit(values) {
         let post_data = {};
+        values['fi-id'] = '_' + Math.random().toString(36).substr(2, 9);
 
         for (var field in fields) {
            post_data[fields[field]] = values[field];

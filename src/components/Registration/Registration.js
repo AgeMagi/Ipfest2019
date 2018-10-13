@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import './Registration.css'
 
@@ -217,6 +218,20 @@ export default class Registration extends Component {
                         <Col className='registration-content' sm='9'> 
                             <h2> {this.state.registrationContent.title} </h2>
                             {this.state.registrationContent.content}
+                        </Col>
+                    </Row>
+                    <Row className='justify-content-sm-center registration-button'>
+                        <Col sm={4}>
+                            <Link to='/registration-form'>
+                                <div className='registration-button-red'>
+                                    <h4>REGISTER NOW</h4>
+                                </div>
+                            </Link>    
+                        </Col>
+                        <Col sm={4} className='registration-button-blue'>
+                            <div>
+                                <h4>CONFIRM YOUR PAYMENT</h4>
+                            </div>
                         </Col>
                     </Row>
                 </Container>
