@@ -370,7 +370,7 @@ export default class SmartCompetition extends Component {
         super(props);
 
         this.state = {
-            registrationContent: registration[13],
+            registrationContent: registration[0],
         }
     }
 

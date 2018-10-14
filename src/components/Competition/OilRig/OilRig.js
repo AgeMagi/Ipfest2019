@@ -273,11 +273,11 @@ const registration = [
         'title': 'AWARDS',
         'content':  <div>
                         <p>The winners of Oil Rig Design Competition will be awarded with fresh money and certificate:</p>
-                        <p>1st Winner &ensp; &nbsp; &nbsp;: IDR 5,000,000 + certificate</p>
-                        <p>2nd Winner &ensp;: IDR 4,000.000 + certificate</p>
-                        <p>3rd Winner &ensp; &nbsp;: IDR 3,000,000 + certificate</p>
+                        <p>1st Winner &ensp;&ensp;&ensp;&ensp; &nbsp; &nbsp; &nbsp;: IDR 5,000,000 + certificate</p>
+                        <p>2nd Winner &ensp;&ensp;&ensp; &nbsp; &nbsp; &nbsp;: IDR 4,000.000 + certificate</p>
+                        <p>3rd Winner &ensp;&ensp;&ensp; &nbsp; &nbsp; &nbsp; &nbsp;: IDR 3,000,000 + certificate</p>
                         <p>Favorite Winner &ensp; &nbsp;: IDR 500,000 + certificate</p>
-                        <p><strong>Additional Notes : </strong>The assessment for favorite oil rig model competition will be based on the direct voting for each oil rig model when it is being exhibited in the IPCONVEX 2019 at February 16th, 2019. If the votes’ number is still inadequate, there will be additional mechanism to assess the rig which is by using likes for instagram. The models will be posted on IPFEST 2019’s official instagram account at the comptition day and the likes from the post will be used to further assess the rig model.</p>
+                        <p><strong>Additional Notes &ensp;</strong>: The assessment for favorite oil rig model competition will be based on the direct voting for each oil rig model when it is being exhibited in the IPCONVEX 2019 at February 16th, 2019. If the votes’ number is still inadequate, there will be additional mechanism to assess the rig which is by using likes for instagram. The models will be posted on IPFEST 2019’s official instagram account at the comptition day and the likes from the post will be used to further assess the rig model.</p>
                     </div>
     },
     {
@@ -423,10 +423,10 @@ const registration = [
     {
         'title': 'KEY DATES',
         'content':  <div>
-                        <p>Open Registration &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: Novermber 1<sup>st</sup>, 2018 - November 25<sup>th</sup>, 2018</p>
-                        <p>Blueprint Submission Deadline &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: December 24<sup>th</sup>, 2018 at 23:59 (GMT + 7)</p>
+                        <p>Open Registration &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; : Novermber 1<sup>st</sup>, 2018 - November 25<sup>th</sup>, 2018</p>
+                        <p>Blueprint Submission Deadline &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: December 24<sup>th</sup>, 2018 at 23:59 (GMT + 7)</p>
                         <p>Selection Phase Announcement : January 17<sup>th</sup>, 2019</p>
-                        <p>Competition Day &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: February 15<sup>th</sup>, 2019</p>
+                        <p>Competition Day &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp; : February 15<sup>th</sup>, 2019</p>
                     </div>
     },
     {
@@ -445,7 +445,7 @@ export default class OilRigCompetition extends Component {
         super(props);
 
         this.state = {
-            registrationContent: registration[13],
+            registrationContent: registration[0],
         }
     }
 

@@ -22,6 +22,11 @@ import MainPageRegistration from './components/Registration-Form/Main-Page/MainP
 import OptionRegistration from './components/Registration-Form/Option/Option';
 import SmartCompetition from './components/Competition/Smart/Smart';
 import OilRigCompetition from './components/Competition/OilRig/OilRig';
+import MudInnovationCompetition from './components/Competition/MudInnovation/MudInnovation';
+import BusinessCaseCompetition from './components/Competition/BusinessCase/BusinessCase';
+import PaperPosterCompetition from './components/Competition/PaperPosterCompetition/PaperPoster';
+import PetroDebateCompetition from './components/Competition/PetroDebate/PetroDebate';
+import PodCompetition from './components/Competition/POD/Pod';
 
 const store = createStore(reducers);
 
@@ -34,6 +39,11 @@ ReactDOM.render(
                     <Route path="/registration-form/option" component={ OptionRegistration } />
                     <Route path="/registration-form" component={ MainPageRegistration } />
                     <Route path="/registration" component = { Registration } />
+                    <Route path='/competition/plan-of-development-competition' component = { PodCompetition } />
+                    <Route path='/competition/petrodebate-competition' component = { PetroDebateCompetition } />
+                    <Route path='/competition/paper-poster-competition' component = { PaperPosterCompetition } />
+                    <Route path='/competition/business-case-competition' component = { BusinessCaseCompetition } />
+                    <Route path='/competition/mud-innovation-competition' component = { MudInnovationCompetition } />
                     <Route path='/competition/smart-competition' component = { SmartCompetition } />
                     <Route path='/competition/oil-rig-design-competition' component = { OilRigCompetition } />
                     <Route path='/competition' component = { Competition} />

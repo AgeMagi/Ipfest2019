@@ -36,3 +36,8 @@ p {
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.competition-topic img:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
