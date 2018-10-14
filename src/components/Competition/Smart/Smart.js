@@ -268,13 +268,13 @@ const registration = [
         'content':  <div>
                         <ol className='list-notab'>
                             <li>
-                                <p></p>
+                                <p>The moderator will accept only the first answer given by a player.</p>
                             </li>
                             <li>
-                                <p></p>
+                                <p>Common acronyms and abbreviations are often acceptable (e.g., chemical symbols, state postal abbreviations, organizational acronyms), unless they appear in the question, in which case the moderator may prompt the player to expand the acronym or abbreviation.</p>
                             </li>
                             <li>
-                                <p></p>
+                                <p>If a question requires multiple answers, a player may provide the responses in any order, without a pause of more than 5 seconds between responses. If the question is not a bonus question, answering only 50% or more of the full answer (i.e. 2 out of 3 answer available) will be considering wrong.</p>
                             </li>
                         </ol>
                     </div>
@@ -284,13 +284,13 @@ const registration = [
         'content':  <div>
                         <ol className='list-notab'>
                             <li>
-                                <p></p>
+                                <p>There will be no signaling between team members and the audience. Restricted signaling includes verbal signals, written signals, hand motions, head motions, eye contact, and anything else construed as signaling by the tournament officials. Violation of the signaling rules will result in forfeiture of opportunity to answer the toss-up. Repeated violations can result in ejection and/or disqualification.</p>
                             </li>
                             <li>
-                                <p></p>
+                                <p>Any intimidation, physical contact, and blasphemy from participant to other participants and tournament official will result to point deduction up to disqualification.</p>
                             </li>
                             <li>
-                                <p></p>
+                                <p>Any act of cheating will result to disqualification</p>
                             </li>
                         </ol>
                     </div>
@@ -300,16 +300,16 @@ const registration = [
         'content':  <div>
                         <ol className='list-notab'>
                             <li>
-                                <p></p>
+                                <p>Tournament official decisions are absolute and final.</p>
                             </li>
                             <li>
-                                <p></p>
+                                <p>Results of all the competition will be announced immediately. </p>
                             </li>
                             <li>
-                                <p></p>
+                                <p>If there's a similarity score in each round, tournament officials will give one additional question (or more-if there's no team can answer) to be answered. The fastest team who rang the buzzer and answers correctly, will win the game. But, if the fastest team answer incorrectly, the other team will win the game.</p>
                             </li>
                             <li>
-                                <p></p>
+                                <p>In Final stage, the points from quiz game and board game will be accumulated directly to determine the winner.</p>
                             </li>
                         </ol>
                     </div>
@@ -328,16 +328,19 @@ const registration = [
         'content':  <div>
                         <ol className='list-notab'>
                             <li>
-                                <p></p>
+                                <p>Registration will be conducted in IPFEST 2019 website registration form at <a href='http://www.ipfest2019.com'>www.ipfest2019.com</a> at <strong>November 1<sup>st</sup>, 2018 – November 25<sup>th</sup>, 2018</strong> and <strong>December 9<sup>th</sup>, 2018 – January 10<sup>th</sup>, 2019</strong>.</p>
                             </li>
                             <li>
-                                <p></p>
+                                <p>Delegates official announcement will be on <sup>January 17<sup>th</sup>, 2019</sup> and will be shared at IPFEST 2019 official account and sent directly to your email</p>
                             </li>
                             <li>
-                                <p></p>
+                                <p>Only the first eighteen (18) teams which have completed the registration and payment process will be invited to Main Event of IPFEST 2019 Smart Competition at <strong>February 15<sup>th</sup>, 2019</strong>.</p>
                             </li>
                             <li>
-                                <p></p>
+                                <p>Please submit all the registration requirements to our official email <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a> before <strong>November 30<sup>th</sup>, 2018 (1<sup>st</sup> batch)</strong> and <strong>January 15t<sup>th</sup>,  2019 (2<sup>nd</sup> batch)</strong>.</p>
+                            </li>
+                            <li>
+                                <p>If there any question, please ask via e-mail to <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a></p>
                             </li>
                         </ol>
                     </div>

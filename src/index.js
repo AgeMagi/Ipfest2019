@@ -21,6 +21,7 @@ import About from './components/About/About';
 import MainPageRegistration from './components/Registration-Form/Main-Page/MainPage';
 import OptionRegistration from './components/Registration-Form/Option/Option';
 import SmartCompetition from './components/Competition/Smart/Smart';
+import OilRigCompetition from './components/Competition/OilRig/OilRig';
 
 const store = createStore(reducers);
 
@@ -34,6 +35,7 @@ ReactDOM.render(
                     <Route path="/registration-form" component={ MainPageRegistration } />
                     <Route path="/registration" component = { Registration } />
                     <Route path='/competition/smart-competition' component = { SmartCompetition } />
+                    <Route path='/competition/oil-rig-design-competition' component = { OilRigCompetition } />
                     <Route path='/competition' component = { Competition} />
                     <Route path='/event/main-event' component = { MainEvent }/>
                     <Route path='/event/pre-event' component = { PreEvent }/>
