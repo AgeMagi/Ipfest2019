@@ -27,6 +27,14 @@ import BusinessCaseCompetition from './components/Competition/BusinessCase/Busin
 import PaperPosterCompetition from './components/Competition/PaperPosterCompetition/PaperPoster';
 import PetroDebateCompetition from './components/Competition/PetroDebate/PetroDebate';
 import PodCompetition from './components/Competition/POD/Pod';
+import SmartRegistration from './components/Registration-Form/Smart/Smart';
+import BusinessCaseRegistration from './components/Registration-Form/BusinessCase/BusinessCase';
+import MudInnovativionRegistration from './components/Registration-Form/MudInnovation/MudInnovation';
+import OilRigRegistration from './components/Registration-Form/OilRig/OilRig';
+import PaperPosterRegistration from './components/Registration-Form/PaperPoster/PaperPoster';
+import PetroDebateRegistration from './components/Registration-Form/PetroDebate/PetroDebate';
+import PODRegistration from './components/Registration-Form/POD/POD';
+import SubmittedRegistration from './components/Registration-Form/Submitted/Submitted';
 
 const store = createStore(reducers);
 
@@ -36,9 +44,17 @@ ReactDOM.render(
             <div>
                 <Navigation />
                 <Switch>
-                    <Route path="/registration-form/option" component={ OptionRegistration } />
+                    {/* <Route path="/registration-form/option" component={ OptionRegistration } />
                     <Route path="/registration-form" component={ MainPageRegistration } />
-                    <Route path="/registration" component = { Registration } />
+                    <Route path='/registration/plan-of-development' component={ PODRegistration } />
+                    <Route path='/registration/petrodebate' component={ PetroDebateRegistration } />
+                    <Route path='/registration/paper-and-poster' component={ PaperPosterRegistration } />
+                    <Route path='/registration/oil-rig-design' component={ OilRigRegistration } />
+                    <Route path='/registration/mud-innovative' component={ MudInnovativionRegistration } />
+                    <Route path='/registration/business-case' component={ BusinessCaseRegistration } />
+                    <Route path='/registration/smart' component={ SmartRegistration } />
+                    <Route path='/registration/submitted/:id' component={ SubmittedRegistration } />
+                    <Route path="/registration" component = { Registration } /> */}
                     <Route path='/competition/plan-of-development-competition' component = { PodCompetition } />
                     <Route path='/competition/petrodebate-competition' component = { PetroDebateCompetition } />
                     <Route path='/competition/paper-poster-competition' component = { PaperPosterCompetition } />

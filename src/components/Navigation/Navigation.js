@@ -85,7 +85,7 @@ export default class Navigation extends React.Component {
 						</NavLink>
 					</NavItem>
 					<NavItem>
-						<NavLink className="navbar-link" to="/registration/">
+						<NavLink className="navbar-link btn disabled" to="/registration/">
 							<h1><strong>REGISTRATION</strong></h1>
 						</NavLink>
 					</NavItem>

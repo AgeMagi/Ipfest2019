@@ -80,4 +80,11 @@ p {
     background-color: #363636;
 }
 
+a.disabled {
+    pointer-events: none;
+}
+
+.navigation .btn {
+    padding: 0px;
+}
 

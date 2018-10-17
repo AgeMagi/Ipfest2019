@@ -1,0 +1,52 @@
+.registration-form {
+    margin-top: 100px;
+}
+
+.registration-form-title {
+    text-align: center;
+    border: 4px solid;
+    border-radius: 20px;
+
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.registration-form-title h1 {
+    margin-bottom: 0px
+}
+
+.hidden_iframe {
+    display: none;
+}
+
+.form-registration {
+    border-color: black;
+    border-radius: 10px;
+}
+
+.registration-form-individual {
+    padding-top: 20px;
+}
+
+.registration-form-individual h6 {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.form-registration-individual {
+    border-color: black;
+    border-radius: 10px; 
+
+    height: 30px;
+}
+
+.submit-form-registration {
+    background-color: #bd2a20;
+    width: 300px;
+    border-radius: 20px;
+    border-color: #bd2a20;
+
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
