@@ -35,6 +35,7 @@ import PaperPosterRegistration from './components/Registration-Form/PaperPoster/
 import PetroDebateRegistration from './components/Registration-Form/PetroDebate/PetroDebate';
 import PODRegistration from './components/Registration-Form/POD/POD';
 import SubmittedRegistration from './components/Registration-Form/Submitted/Submitted';
+import Sponsor from './components/Sponsor/Sponsor';
 
 const store = createStore(reducers);
 
@@ -44,7 +45,7 @@ ReactDOM.render(
             <div>
                 <Navigation />
                 <Switch>
-                    {/* <Route path="/registration-form/option" component={ OptionRegistration } />
+                    <Route path="/registration-form/option" component={ OptionRegistration } />
                     <Route path="/registration-form" component={ MainPageRegistration } />
                     <Route path='/registration/plan-of-development' component={ PODRegistration } />
                     <Route path='/registration/petrodebate' component={ PetroDebateRegistration } />
@@ -54,7 +55,7 @@ ReactDOM.render(
                     <Route path='/registration/business-case' component={ BusinessCaseRegistration } />
                     <Route path='/registration/smart' component={ SmartRegistration } />
                     <Route path='/registration/submitted/:id' component={ SubmittedRegistration } />
-                    <Route path="/registration" component = { Registration } /> */}
+                    <Route path="/registration" component = { Registration } />
                     <Route path='/competition/plan-of-development-competition' component = { PodCompetition } />
                     <Route path='/competition/petrodebate-competition' component = { PetroDebateCompetition } />
                     <Route path='/competition/paper-poster-competition' component = { PaperPosterCompetition } />
@@ -67,6 +68,7 @@ ReactDOM.render(
                     <Route path='/event/pre-event' component = { PreEvent }/>
                     <Route path='/event' component = {Event} />
                     <Route path='/about' component = {About} />
+                    <Route path='/sponsor' component={Sponsor} />
                     <Route path='/' component = {Home}/>
                 </Switch>
                 <Footer />

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import './Footer.css'
 import { Container,
@@ -18,43 +19,81 @@ export default class Footer extends Component {
                             />
                             <Row className="footer-socmed justify-content-sm-center">
                                 <Col sm={3}>
-                                    <img 
-                                        src={require('../../images/Facebook.png')}
-                                    />
+                                    <a href='https://www.facebook.com/ipfest2019/' target='__blank'>
+                                        <img 
+                                            src={require('../../images/Facebook.png')}
+                                        />
+                                    </a>                                    
                                 </Col>
                                 <Col sm={3}>
-                                    <img 
-                                        src={require('../../images/Instagram.png')}
-                                    />
+                                    <a href='https://www.instagram.com/ipfest2019/' target='__blank'>
+                                        <img 
+                                            src={require('../../images/Instagram.png')}
+                                        />
+                                    </a>                                    
                                 </Col>
                                 <Col sm={3}>
-                                    <img 
-                                        src={require('../../images/Line.png')}
-                                    />
+                                    <a href='https://timeline.line.me/user/_dbZ9wAOoBIL3b4HxrIewfY34pkLQiZjyaHgWYxk' target='__blank'>
+                                        <img 
+                                            src={require('../../images/Line.png')}
+                                        />
+                                    </a>                                    
                                 </Col>
                             </Row>
                         </Col>
                         <Col className="footer-content" sm={3}> 
                             <h2>EVENTS</h2>
-                            <p>High School Visit</p>
-                            <p>Blood Donation</p>
-                            <p>Energy Campaign Labyrinth</p>
-                            <p>Medical Checkup</p>
-                            <p>IPGL</p>
-                            <p>Goes to Orphanage</p>
-                            <p>IPConvex</p>
-                            <p>Touring PVI & Networking Day</p>
-                            <p>Gala Dinner</p>
+                            <Link to='/event/pre-event'> 
+                                <p>High School Visit</p>
+                            </Link>
+                            <Link to='/event/pre-event'> 
+                                <p>Blood Donation</p>
+                            </Link>                            
+                            <Link to='/event/pre-event'> 
+                                <p>Energy Campaign Labyrinth</p>
+                            </Link>                            
+                            <Link to='/event/pre-event'> 
+                                <p>Medical Checkup</p>
+                            </Link>                            
+                            <Link to='/event/pre-event'> 
+                                <p>IPGL</p>
+                            </Link>                            
+                            <Link to='/event/pre-event'> 
+                                <p>Goes to Orphanage</p>
+                            </Link>          
+                            <Link to='/event/main-event'>
+                                <p>IPConvex</p>
+                            </Link>                                  
+                            <Link to='/event/main-event'>
+                                <p>Touring PVI & Networking Day</p>
+                            </Link> 
+                            <Link to='/event/main-event'>
+                                <p>Gala Dinner</p>
+                            </Link>                            
                         </Col>
                         <Col className="footer-content" sm={3}> 
                             <h2>COMPETITIONS</h2>
-                            <p>Oil Rig Design Competition</p>
-                            <p>PetroDebate Competition</p>
-                            <p>Mud Innovative Competition</p>
-                            <p>Paper and Poster Competition</p>
-                            <p>Smart Competition</p>
-                            <p>Business Case Competition</p>
-                            <p>Plan of Development Competition</p>
+                            <Link to='/competition/oil-rig-design-competition'>
+                                <p>Oil Rig Design Competition</p>
+                            </Link>                            
+                            <Link to='/competition/petrodebate-competition'>
+                                <p>PetroDebate Competition</p>
+                            </Link>                            
+                            <Link to='/competition/mud-innovation-competition'>
+                                <p>Mud Innovative Competition</p>
+                            </Link>                            
+                            <Link to='/competition/paper-poster-competition'>
+                                <p>Paper and Poster Competition</p>
+                            </Link>                            
+                            <Link to='/competition/smart-competition'>
+                                <p>Smart Competition</p>
+                            </Link>                            
+                            <Link to='/competition/business-case-competition'>
+                                <p>Business Case Competition</p>
+                            </Link>                            
+                            <Link to='/competition/plan-of-development-competition'>
+                                <p>Plan of Development Competition</p>
+                            </Link>                            
                         </Col>
                         <Col className="footer-content" sm={3}> 
                             <h2>NEWS</h2>
