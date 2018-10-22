@@ -36,6 +36,7 @@ import PetroDebateRegistration from './components/Registration-Form/PetroDebate/
 import PODRegistration from './components/Registration-Form/POD/POD';
 import SubmittedRegistration from './components/Registration-Form/Submitted/Submitted';
 import Sponsor from './components/Sponsor/Sponsor';
+import Faq from './components/Faq/Faq';
 
 const store = createStore(reducers);
 
@@ -69,6 +70,7 @@ ReactDOM.render(
                     <Route path='/event' component = {Event} />
                     <Route path='/about' component = {About} />
                     <Route path='/sponsor' component={Sponsor} />
+                    <Route path='/faq' component={Faq} />
                     <Route path='/' component = {Home}/>
                 </Switch>
                 <Footer />

@@ -14,8 +14,14 @@ p {
     background: url('../../../images/background\ news.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+
+    text-align: justify;
 }
 
 .news-content-container {
     z-index: 3;
+}
+
+.news-title {
+    text-align: left;
 }

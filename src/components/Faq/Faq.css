@@ -1,0 +1,17 @@
+.faq-container {
+    padding-top: 120px;
+
+    padding-bottom: 40px;
+}
+
+.faq-theme {
+    margin-bottom: 40px;
+}
+
+.faq-content {
+    margin-bottom: 20px;
+}
+
+.faq-content .answer {
+    text-align: justify;
+}

@@ -21,6 +21,10 @@ p {
     background-color: aqua;
 }
 
+.about-content {
+    text-align: justify;
+}
+
 .organogram {
     text-align: center;
 

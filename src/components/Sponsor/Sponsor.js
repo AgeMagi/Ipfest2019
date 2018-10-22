@@ -34,7 +34,8 @@ export default class Sponsor extends Component {
                             src={require('../../images/Sponsor/Bronze/Layer 8.png')}
                         /> 
                     </Row>    
-                    <Row className='justify-content-around'>
+                    <Row className='justify-content-around'
+                    >
                         <img 
                             src={require('../../images/Sponsor/Bronze/Layer 9.png')}
                         />

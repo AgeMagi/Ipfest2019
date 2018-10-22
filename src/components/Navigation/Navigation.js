@@ -147,7 +147,7 @@ export default class Navigation extends React.Component {
 						</NavLink>
 					</NavItem>
 					<NavItem>
-						<NavLink className="navbar-link" to="/components/">
+						<NavLink className="navbar-link" to="/faq/">
 							<h1><strong>FAQ</strong></h1>
 						</NavLink>
 					</NavItem>
