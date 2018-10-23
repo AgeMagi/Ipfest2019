@@ -11,7 +11,7 @@ export default class Footer extends Component {
         return (
             <div className='footer-container'>
                 <Container>
-                    <Row>
+                    <Row className='justify-content-sm-around'>
                         <Col sm={3}> 
                             <img 
                                 className="footer-logo"
@@ -32,9 +32,10 @@ export default class Footer extends Component {
                                         />
                                     </a>                                    
                                 </Col>
-                                <Col sm={3}>
+                                <Col sm={3} id='line-container'>
                                     <a href='https://timeline.line.me/user/_dbZ9wAOoBIL3b4HxrIewfY34pkLQiZjyaHgWYxk' target='__blank'>
                                         <img 
+                                            id='line'
                                             src={require('../../images/Line.png')}
                                         />
                                     </a>                                    
@@ -94,16 +95,6 @@ export default class Footer extends Component {
                             <Link to='/competition/plan-of-development-competition'>
                                 <p>Plan of Development Competition</p>
                             </Link>                            
-                        </Col>
-                        <Col className="footer-content" sm={3}> 
-                            <h2>NEWS</h2>
-                            <p>News 1</p>
-                            <p>News 1</p>
-                            <p>News 1</p>
-                            <p>News 1</p>
-                            <p>News 1</p>
-                            <p>News 1</p>
-                            <p>News 1</p>
                         </Col>
                     </Row>
                 </Container>

@@ -55,6 +55,14 @@ p {
     color: white;
 }
 
+.header-quote .event-type {
+    margin-top: 20px;
+}
+
+.header-quote a:hover {
+    text-decoration: none;
+}
+
 .header-badge {
     width: 350px;
 }

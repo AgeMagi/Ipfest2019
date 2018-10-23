@@ -18,7 +18,16 @@ p {
 }
 
 .about-video {
-    background-color: aqua;
+    padding: 0px;
+
+    overflow: hidden;
+}
+
+
+.about-video video {
+    width: 100%;
+    min-width: 570px;
+    height: auto;
 }
 
 .about-content {
