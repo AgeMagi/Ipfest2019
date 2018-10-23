@@ -296,9 +296,9 @@ const registration = [
     {
         'title': 'AWARDS',
         'content':  <div>
-                        <p>1st Winner &ensp; &nbsp; &nbsp;: IDR 3,000,000 + certificate</p>
-                        <p>2nd Winner &ensp;: IDR 2,000.000 + certificate</p>
-                        <p>3rd Winner &ensp; &nbsp;: IDR 1,000,000 + certificate</p>
+                        <p>1st Winner &ensp; &ensp; &nbsp; &nbsp;: IDR 3,000,000 + certificate</p>
+                        <p>2nd Winner &ensp; &ensp;: IDR 2,000.000 + certificate</p>
+                        <p>Best Speaker &ensp; &nbsp;: IDR 1,000,000 + certificate</p>
                         <p>Favorite Winner (Best Poster) : IDR 500,000 + certificate</p>
                     </div>
     },
@@ -345,6 +345,9 @@ const registration = [
                             </li>
                             <li>
                                 <p>If there any question, please ask via e-mail to our official email : <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a> </p>
+                            </li>
+                            <li>
+                                <p><a href="https://drive.google.com/uc?export=download&id=17lsDE3zBYXef-1r0tUj705laj_8scufI">Download</a> Anti Plagirsm Statement Lefter</p>
                             </li>
                         </ol>
                     </div>

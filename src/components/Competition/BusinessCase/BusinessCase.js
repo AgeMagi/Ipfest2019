@@ -263,6 +263,9 @@ const registration = [
                             <li>
                                 <p>Any remaining question, please ask via e-mail to <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a> with subject “Business Case Competition Enquiry”.</p>
                             </li>
+                            <li>
+                                <p><a href="https://drive.google.com/uc?export=download&id=17lsDE3zBYXef-1r0tUj705laj_8scufI">Download</a> Anti Plagirsm Statement Lefter</p>
+                            </li>
                         </ol>
                     </div>
     },

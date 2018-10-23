@@ -16,7 +16,7 @@ const registration = [
     {
         'title': 'VENUE & DATE',
         'content':  <div>
-                        <p>Venue &ensp; &ensp;: School of Business and Management (SBM), Institute of Technology Bandung, Indonesia</p>
+                        <p>Venue &ensp; &ensp;: Petroleum Engineering Department Building, Institute of Technology Bandung, Indonesia</p>
                         <p>Date &ensp; &ensp; &nbsp; &nbsp;: Friday, February 15<sup>th</sup>, 2019</p>
                         <p>Time &ensp; &ensp; &nbsp; &nbsp;: 07:30 AM - end (GMT+7)</p>
                     </div>
@@ -28,10 +28,10 @@ const registration = [
                             <p>PFEST 2019 PetroDebate Competition applicants are undergraduate students from any university or college in Indonesia.</p>
                         </li>
                         <li>
-                            <p>IPFEST 2019 PetroDebate Competition consist of 12 teams with 3 members each.</p>
+                            <p>IPFEST 2019 PetroDebate Competition consist of 8 teams with 3 members each.</p>
                         </li>
                         <li>
-                            <p>The first twelve (12) teams that have completed the payment process will be invited to IPFEST 2019 PetroDebate Competition. They will be notified through IPFEST 2019 website and email.</p>
+                            <p>The first eight (8) teams that have completed the payment process will be invited to IPFEST 2019 PetroDebate Competition. They will be notified through IPFEST 2019 website and email.</p>
                         </li>
                         <li>
                             <p>The maximum team cap for each university is 3 teams.</p>

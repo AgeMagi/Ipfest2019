@@ -53,7 +53,7 @@ class Header extends Component {
                     </h1>
                     <Row className='justify-content-sm-center'>
                         <Col sm='6'>
-                            <a href="http://bit.ly/IPFEST2019InvitationLetter" target="__blank">                                
+                            <a href="https://drive.google.com/uc?export=download&id=1ltwKKtgFN76cd8zdRw3eLcLLtRwZd2Xu" target="__blank">                                
                                 <div className='event-type'>
                                     <h3>Invitation Letter</h3>
                                 </div>  
