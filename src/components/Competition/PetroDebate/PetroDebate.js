@@ -288,7 +288,7 @@ const registration = [
                                 <p>Submit the transfer slip in the link that will be given via email after registration.</p>
                             </li>
                             <li>
-                                <p>The first 12 teams that complete both the registration and payment processes will be selected to join IPFEST 2019 PetroDebate Competition.</p>
+                                <p>The first 8 teams that complete both the registration and payment processes will be selected to join IPFEST 2019 PetroDebate Competition.</p>
                             </li>
                             <li>
                                 <p>Official delegates announcement will be on <strong>January 17<sup>th</sup>, 2019</strong> and will be shared at IPFEST 2019 official account and sent directly to your email.</p>
