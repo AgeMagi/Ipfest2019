@@ -298,7 +298,7 @@ const registration = [
         'content':  <div>
                         <p>1st Winner &ensp; &ensp; &nbsp; &nbsp;: IDR 3,000,000 + certificate</p>
                         <p>2nd Winner &ensp; &ensp;: IDR 2,000.000 + certificate</p>
-                        <p>Best Speaker &ensp; &nbsp;: IDR 1,000,000 + certificate</p>
+                        <p>3 Winner &ensp; &nbsp;: IDR 1,000,000 + certificate</p>
                         <p>Favorite Winner (Best Poster) : IDR 500,000 + certificate</p>
                     </div>
     },

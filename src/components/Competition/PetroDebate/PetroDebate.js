@@ -272,9 +272,9 @@ const registration = [
         'title': 'AWARDS',
         'content':  <div>
                         <p>The Winners of IPFEST 2019 PetroDebate Competition will be awarded money and a certificate:</p>
-                        <p>1st Winner &ensp; &nbsp; &nbsp;: IDR 4,000,000 + certificate</p>
-                        <p>2nd Winner &ensp;: IDR 3,000.000 + certificate</p>
-                        <p>3rd Winner &ensp; &nbsp;: IDR 1,500,000 + certificate</p>
+                        <p>1st Winner &ensp; &ensp; &nbsp; &nbsp;: IDR 4,000,000 + certificate</p>
+                        <p>2nd Winner &ensp; &ensp;: IDR 3,000.000 + certificate</p>
+                        <p>Best Speaker &ensp; &nbsp;: IDR 1,500,000 + certificate</p>
                     </div>
     },
     {
