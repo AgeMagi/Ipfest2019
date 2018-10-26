@@ -14,6 +14,16 @@ export default class PetroDebateRegistration extends Component {
 
         this.state = ({
             submitted: false,
+            id: '_' + Math.random().toString(36).substr(2, 9),
+            submitDisabled: true,
+        })
+
+        this.enabledSubmit = this.enabledSubmit.bind(this);
+    }
+
+    enabledSubmit() {
+        this.setState({
+            submitDisabled: false,
         })
     }
 
@@ -30,7 +40,7 @@ export default class PetroDebateRegistration extends Component {
                         <h1>PETRODEBATE COMPETITION</h1>
                     </div>
                     <iframe name='hidden_iframe' id='hidden_iframe' className='hidden_iframe' onLoad={() => {
-                        if (this.state.submitted) {window.location='http://localhost:3000/registration/smart'};
+                        if (this.state.submitted) {window.location=`http://localhost:3000/registration/submitted/${this.state.id}`};
                     }}></iframe>
                     <form
                         action='https://docs.google.com/forms/u/3/d/e/1FAIpQLSfh7H0vRqCtZioKX6LvgNSxcZYQxnHTXySmgQ-v9MuUjB1Fig/formResponse'
@@ -175,7 +185,7 @@ export default class PetroDebateRegistration extends Component {
                                     <input 
                                         type='text'
                                         className='form-control form-registration-individual'
-                                        name='entry.1402810883'
+                                        name='entry.113922383'
                                     />
                                 </Col>
                             </Row>
@@ -187,7 +197,7 @@ export default class PetroDebateRegistration extends Component {
                                     <input 
                                         type='text'
                                         className='form-control form-registration-individual'
-                                        name='entry.1763774137'
+                                        name='entry.490246767'
                                     />
                                 </Col>
                             </Row>
@@ -199,7 +209,7 @@ export default class PetroDebateRegistration extends Component {
                                     <input 
                                         type='text'
                                         className='form-control form-registration-individual'
-                                        name='entry.249986269'
+                                        name='entry.800450108'
                                     />
                                 </Col>
                             </Row>
@@ -211,12 +221,15 @@ export default class PetroDebateRegistration extends Component {
                                     <input 
                                         type='text'
                                         className='form-control form-registration-individual'
-                                        name='entry.592619053'
+                                        name='entry.293024271'
                                     />
                                 </Col>
                             </Row>
                         </div>
-                        <button type='submit' className='submit-form-registration'>SUBMIT</button>
+                        <a href={`https://docs.google.com/forms/d/e/1FAIpQLSca2F5EsI5JEzbtz_MH-CMUQy6uwbtafNbfIlyl49dP_30xHA/viewform?entry.1121806841=${this.state.id}`} target="__blank">
+                            <h2 className='upload-photo disabled' onClick={() => this.enabledSubmit()}>Upload Photo</h2>
+                        </a>
+                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled}>SUBMIT</button>
                     </form>
                 </Container>  
             </div>

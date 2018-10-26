@@ -14,6 +14,16 @@ export default class PaperPosterRegistration extends Component {
 
         this.state = ({
             submitted: false,
+            id: '_' + Math.random().toString(36).substr(2, 9),
+            submitDisabled: true,
+        })
+
+        this.enabledSubmit = this.enabledSubmit.bind(this);
+    }
+
+    enabledSubmit() {
+        this.setState({
+            submitDisabled: false,
         })
     }
 
@@ -30,7 +40,7 @@ export default class PaperPosterRegistration extends Component {
                         <h1>PAPER AND POSTER COMPETITION</h1>
                     </div>
                     <iframe name='hidden_iframe' id='hidden_iframe' className='hidden_iframe' onLoad={() => {
-                        if (this.state.submitted) {window.location='http://localhost:3000/registration/smart'};
+                        if (this.state.submitted) {window.location=`http://localhost:3000/registration/submitted/${this.state.id}`};
                     }}></iframe>
                     <form
                         action='https://docs.google.com/forms/u/3/d/e/1FAIpQLScR2Ai8WUvjmt2y7BhlARhpv1ZpcCOYgqIa_LDMW153bMYPlg/formResponse'
@@ -165,7 +175,10 @@ export default class PaperPosterRegistration extends Component {
                                 </Col>
                             </Row>
                         </div>
-                        <button type='submit' className='submit-form-registration'>SUBMIT</button>
+                        <a href={`https://docs.google.com/forms/d/e/1FAIpQLSemFmY6wOMHs4rhYM_ak5i-u8_w1SYeQvxcPQxPXPbOw3BHtA/viewform?entry.136486014=${this.state.id}`} target="__blank">
+                            <h2 className='upload-photo disabled' onClick={() => this.enabledSubmit()}>Upload Photo</h2>
+                        </a>
+                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled}>SUBMIT</button>
                     </form>
                 </Container>  
             </div>

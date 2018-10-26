@@ -14,6 +14,16 @@ export default class MudInnovativionRegistration extends Component {
 
         this.state = ({
             submitted: false,
+            id: '_' + Math.random().toString(36).substr(2, 9),
+            submitDisabled: true,
+        })
+
+        this.enabledSubmit = this.enabledSubmit.bind(this);
+    }
+
+    enabledSubmit() {
+        this.setState({
+            submitDisabled: false,
         })
     }
 
@@ -30,7 +40,7 @@ export default class MudInnovativionRegistration extends Component {
                         <h1>MUD INNOVATIVE COMPETITION</h1>
                     </div>
                     <iframe name='hidden_iframe' id='hidden_iframe' className='hidden_iframe' onLoad={() => {
-                        if (this.state.submitted) {window.location='http://localhost:3000/registration/smart'};
+                        if (this.state.submitted) {window.location=`http://localhost:3000/registration/submitted/${this.state.id}`};
                     }}></iframe>
                     <form
                         action='https://docs.google.com/forms/u/3/d/e/1FAIpQLSfGninN-XgJd7WZbqFvbb-WzYZgwhHgBqbuPIltZPLKzxCDlA/formResponse'
@@ -216,7 +226,10 @@ export default class MudInnovativionRegistration extends Component {
                                 </Col>
                             </Row>
                         </div>
-                        <button type='submit' className='submit-form-registration'>SUBMIT</button>
+                        <a href={`https://docs.google.com/forms/d/e/1FAIpQLSdqaQ9s9jgCnMn-jw3X2zicLFFbp5J2CqomDJhbuVCS1e6evw/viewform?entry.1885496459=${this.state.id}`} target="__blank">
+                            <h2 className='upload-photo disabled' onClick={() => this.enabledSubmit()}>Upload Photo</h2>
+                        </a>
+                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled}>SUBMIT</button>
                     </form>
                 </Container>  
             </div>

@@ -15,6 +15,15 @@ export default class SmartRegistration extends Component {
         this.state = ({
             submitted: false,
             id: '_' + Math.random().toString(36).substr(2, 9),
+            submitDisabled: true,
+        })
+
+        this.enabledSubmit = this.enabledSubmit.bind(this);
+    }
+
+    enabledSubmit() {
+        this.setState({
+            submitDisabled: false,
         })
     }
 
@@ -222,7 +231,10 @@ export default class SmartRegistration extends Component {
                                 </Col>
                             </Row>
                         </div>
-                        <button type='submit' className='submit-form-registration'>SUBMIT</button>
+                        <a href={`https://docs.google.com/forms/d/e/1FAIpQLSf8iLODkf4ENHm3q_WZ3ey-SlvjlwJ2jHUiNRMJHFhPQDyBHg/viewform?entry.718524588=${this.state.id}`} target="__blank">
+                            <h2 className='upload-photo disabled' onClick={() => this.enabledSubmit()}>Upload Photo</h2>
+                        </a>
+                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled}>SUBMIT</button>
                     </form>
                 </Container>  
             </div>

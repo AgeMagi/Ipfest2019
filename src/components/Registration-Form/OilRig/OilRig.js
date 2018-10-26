@@ -14,9 +14,18 @@ export default class OilRigRegistration extends Component {
 
         this.state = ({
             submitted: false,
+            id: '_' + Math.random().toString(36).substr(2, 9),
+            submitDisabled: true,
         })
+
+        this.enabledSubmit = this.enabledSubmit.bind(this);
     }
 
+    enabledSubmit() {
+        this.setState({
+            submitDisabled: false,
+        })
+    }
     render() {
         return(
             <div className='registration-form'>
@@ -30,7 +39,7 @@ export default class OilRigRegistration extends Component {
                         <h1>OIL RIG DESIGN COMPETITION</h1>
                     </div>
                     <iframe name='hidden_iframe' id='hidden_iframe' className='hidden_iframe' onLoad={() => {
-                        if (this.state.submitted) {window.location='http://localhost:3000/registration/smart'};
+                        if (this.state.submitted) {window.location=`http://localhost:3000/registration/submitted/${this.state.id}`};
                     }}></iframe>
                     <form
                         action='https://docs.google.com/forms/u/3/d/e/1FAIpQLScCGddkjEu3dEVP9A-xo6VgarMxTjnC6JwjlWos5SPEqWeAgg/formResponse'
@@ -318,7 +327,10 @@ export default class OilRigRegistration extends Component {
                                 </Col>
                             </Row>
                         </div>
-                        <button type='submit' className='submit-form-registration'>SUBMIT</button>
+                        <a href={`https://docs.google.com/forms/d/e/1FAIpQLSeYmDhX9XfrEn9_kb238swY94JjK5hn80iKQOGuQqo8CTibFA/viewform?entry.374487515=${this.state.id}`} target="__blank">
+                            <h2 className='upload-photo disabled' onClick={() => this.enabledSubmit()}>Upload Photo</h2>
+                        </a>
+                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled}>SUBMIT</button>
                     </form>
                 </Container>  
             </div>

@@ -50,3 +50,20 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.upload-photo {
+    background-color: #049b88;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    border-color: #cccccc;
+}
