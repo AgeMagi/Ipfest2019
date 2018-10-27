@@ -37,6 +37,7 @@ import PODRegistration from './components/Registration-Form/POD/POD';
 import SubmittedRegistration from './components/Registration-Form/Submitted/Submitted';
 import Sponsor from './components/Sponsor/Sponsor';
 import Faq from './components/Faq/Faq';
+import ConfirmedPayment from './components/Registration-Form/ConfirmPayment/ConfirmedPayment';
 
 const store = createStore(reducers);
 
@@ -47,6 +48,7 @@ ReactDOM.render(
                 <Navigation />
                 <Switch>
                     <Route path="/registration-form/option" component={ OptionRegistration } />
+                    <Route path="/registration/confirmed-payment" component = { ConfirmedPayment } />
                     <Route path="/registration-form" component={ MainPageRegistration } />
                     <Route path='/registration/plan-of-development' component={ PODRegistration } />
                     <Route path='/registration/petrodebate' component={ PetroDebateRegistration } />

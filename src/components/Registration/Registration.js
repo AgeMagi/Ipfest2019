@@ -179,6 +179,11 @@ export default class Registration extends Component {
         console.log(event.target.dataKey)
     }
 
+    confirmPayment() {
+        console.log('HEHE');
+        window.location.replace("http://localhost:3000/registration/confirmed-payment");
+    }
+
     render() {
         return(
             <div>
@@ -229,9 +234,11 @@ export default class Registration extends Component {
                             </Link>    
                         </Col>
                         <Col sm={4} className='registration-button-blue'>
-                            <div>
-                                <h4>CONFIRM YOUR PAYMENT</h4>
-                            </div>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7vEPtt-VApZs0qSrYdFSEblz6n_gO5IsSy6ugGktXBowYxw/viewform" target="__blank">
+                                <div onClick={this.confirmPayment}> 
+                                    <h4>CONFIRM YOUR PAYMENT</h4>
+                                </div>
+                            </a>                            
                         </Col>
                     </Row>
                 </Container>
