@@ -11,3 +11,7 @@
 .registration-option h2 {
     margin-bottom: 20px;
 }
+
+.registration-option a {
+    text-decoration: none;
+}

@@ -14,6 +14,16 @@ export default class PODRegistration extends Component {
 
         this.state = ({
             submitted: false,
+            id: '_' + Math.random().toString(36).substr(2, 9),
+            submitDisabled: true,
+        })
+
+        this.enabledSubmit = this.enabledSubmit.bind(this);
+    }
+
+    enabledSubmit() {
+        this.setState({
+            submitDisabled: false,
         })
     }
 
@@ -30,10 +40,10 @@ export default class PODRegistration extends Component {
                         <h1>PLAN OF DEVELOPMENT COMPETITION</h1>
                     </div>
                     <iframe name='hidden_iframe' id='hidden_iframe' className='hidden_iframe' onLoad={() => {
-                        if (this.state.submitted) {window.location='http://localhost:3000/registration/smart'};
+                        if (this.state.submitted) {window.location=`http://localhost:3000/registration/submitted/${this.state.id}`};
                     }}></iframe>
                     <form
-                        action='https://docs.google.com/forms/u/3/d/e/1FAIpQLScfo_pf_CpAbAiVMEfgZSjLu1dKFJCgWnPvGY4Qj3jrCgQvvA/formResponse'
+                        action='https://docs.google.com/forms/d/e/1FAIpQLScfo_pf_CpAbAiVMEfgZSjLu1dKFJCgWnPvGY4Qj3jrCgQvvA/formResponse'
                         target='hidden_iframe'
                         method='POST'
                         id='mG61Hd'
@@ -318,7 +328,10 @@ export default class PODRegistration extends Component {
                                 </Col>
                             </Row>
                         </div>
-                        <button type='submit' className='submit-form-registration'>SUBMIT</button>
+                        <a href={`https://docs.google.com/forms/d/e/1FAIpQLSf2QJPDuNU38wyzE81G0pJaC0XLh4S0HkrO0aNPD2ZfFqx6qA/viewform?entry.381623413=${this.state.id}`} target="__blank">
+                            <h2 className='upload-photo disabled' onClick={() => this.enabledSubmit()}>Upload Photo</h2>
+                        </a>
+                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled}>SUBMIT</button>
                     </form>
                 </Container>  
             </div>
