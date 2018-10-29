@@ -131,7 +131,7 @@ export default class Content extends Component {
                                 />
                                 <Col sm='4'>
                                     <div className='content-title'>
-                                        <h2>Blood Donation</h2>
+                                        <h2>Blood Donation and Energy Insight Labyrinth</h2>
                                     </div>
                                 </Col>
                                 <Col sm='8'>
@@ -167,7 +167,7 @@ export default class Content extends Component {
                                 />
                                 <Col sm='4'>
                                     <div className='content-title'>
-                                        <h2>Energy Insight</h2>
+                                        <h2>Energy Insight : High School Visit</h2>
                                     </div>
                                 </Col>
                                 <Col sm='8'>
@@ -275,7 +275,7 @@ export default class Content extends Component {
                                 />
                                 <Col sm='4'>
                                     <div className='content-title'>
-                                        <h2>Goes to Orphanage</h2>
+                                        <h2>Sharing is Caring</h2>
                                     </div>
                                 </Col>
                                 <Col sm='8'>

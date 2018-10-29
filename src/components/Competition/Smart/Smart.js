@@ -31,7 +31,7 @@ const registration = [
                             <p>All participants must be undergraduate students of their university.</p>
                         </li>
                         <li>
-                            <p>Each university can send its representative maximum of 2 teams (one main learn and one beackup team) with each team consist of 3 players</p>
+                            <p>Each university can send its representative maximum of 2 teams (one main team and one beackup team) with each team consist of 3 players</p>
                         </li>
                         <li>
                             <p>Total participants of this competition is 18 teams. Any changes will be announce via official account</p>
@@ -128,7 +128,7 @@ const registration = [
                         </li>
                         <li>
                             <p>Timekeeper</p>
-                            <p>Each game will have one timekeeper. The timekeeper will enforce time limies and spervise the game clock.</p>
+                            <p>Each game will have one timekeeper. The timekeeper will enforce time limits and supervise the game clock.</p>
                         </li>
                     </ol>
     },

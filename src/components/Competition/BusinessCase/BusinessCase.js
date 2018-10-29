@@ -16,7 +16,7 @@ const registration = [
     {
         'title': 'VENUE & DATE',
         'content':  <div>
-                        <p>Venue &ensp; &ensp;: Auditorium of Energy Building, Institute of Technology Bandung, Bandung, Indonesia</p>
+                        <p>Venue &ensp; &ensp;: Central Library of Institute of Technology Bandung</p>
                         <p>Date &ensp; &ensp; &nbsp; &nbsp;: Friday, February 15<sup>th</sup>, 2019</p>
                         <p>Time &ensp; &ensp; &nbsp; &nbsp;: 08:00 AM - end (GMT+7)</p>
                     </div>
@@ -70,7 +70,7 @@ const registration = [
                         <ol className='list-notab'>
                             <li>
                                 <p>Preliminary Round</p>
-                                <p>At preliminary round, each team will analyze Preliminary case and find the solution in the form of an essay. The prelimenary case will be given on <strong>November 31<sup>st</sup>, 2018</strong> and will be send directly to your leader’s email. The essay must be in English and submitted before <strong>December 11<sup>th</sup>, 2018 23.59</strong>. Submission of the essay must in .doc form with file name : IPFEST2019_BusinessCaseCompetition_Preliminary_(Team Name).doc and submitted to IPFEST 2019 official email (<a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a>) and cc to <a href='https://baskoro1404@gmail.com'>baskoro1404@gmail.com</a>). The subject of the email is BusinessCaseCompetition_IPFEST2019_Preliminary_(Team Name)_University. After submitting your essay, please verify immediately to our contact person. The top 10 teams selected by the judge will proceed to the final round and will be announced at <strong>January 17<sup>th</sup>, 2019</strong>.</p>
+                                <p>At preliminary round, each team will analyze Preliminary case and find the solution in the form of an essay. The prelimenary case will be given on <strong>November 31<sup>st</sup>, 2018</strong> and will be send directly to your leader’s email. The essay must be in English and submitted before <strong>December 11<sup>th</sup>, 2018 23.59</strong>. Submission of the essay must in .pdf form with file name : IPFEST2019_BusinessCaseCompetition_Preliminary_(Team Name).doc and submitted to IPFEST 2019 official email (<a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a>) and cc to <a href='https://baskoro1404@gmail.com'>baskoro1404@gmail.com</a>). The subject of the email is BusinessCaseCompetition_IPFEST2019_Preliminary_(Team Name)_University. After submitting your essay, please verify immediately to our contact person. The top 10 teams selected by the judge will proceed to the final round and will be announced at <strong>January 17<sup>th</sup>, 2019</strong>.</p>
                             </li>
                             <li>
                                 <p>Final Round</p>

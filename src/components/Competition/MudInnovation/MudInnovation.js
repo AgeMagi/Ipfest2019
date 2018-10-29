@@ -363,7 +363,7 @@ export default class MudInnovationCompetition extends Component {
                         </Col>
                         <Col sm={9} className='competition-detail-content-explain'>
                             <p>
-                                IPFEST 2019 Mud Innovative Competition is a competition which challenge particiapnts’ knowledge about drilling mud in the petroleum sector, as well as their analytical skills and creativity to maket he most efficient drilling mud. All participants will be given a case by petroleum experts coming from different background. Subsequently, they will do a presentation about their design and analysis result of their mud in front of honorable judges.
+                                IPFEST 2019 Mud Innovative Competition is a competition which challenge particiapnts’ knowledge about drilling mud in the petroleum sector, as well as their analytical skills and creativity to make the most efficient drilling mud. All participants will be given a case by petroleum experts coming from different background. Subsequently, they will do a presentation about their design and analysis result of their mud in front of honorable judges.
                             </p>
                         </Col>
                     </Row>

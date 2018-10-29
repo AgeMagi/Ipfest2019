@@ -366,7 +366,7 @@ const registration = [
     {
         'title': 'CONTACT PERSON',
         'content':  <div>
-                        <p>Gerry Adam Alwyn Syah</p>
+                        <p>Gerald Adam Alwyn Syah</p>
                         <p>Manager of IPFEST 2019 Paper and Poster Competition</p>
                         <p>+62-821-9094-3490</p>
                         <p>geraldadam2998@gmail.com</p>

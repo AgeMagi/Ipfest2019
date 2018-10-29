@@ -51,7 +51,7 @@ export default class Footer extends Component {
                                 <p>Blood Donation</p>
                             </Link>                            
                             <Link to='/event/pre-event'> 
-                                <p>Energy Campaign Labyrinth</p>
+                                <p>Energy Insight Labyrinth</p>
                             </Link>                            
                             <Link to='/event/pre-event'> 
                                 <p>Medical Checkup</p>
@@ -60,7 +60,7 @@ export default class Footer extends Component {
                                 <p>IPGL</p>
                             </Link>                            
                             <Link to='/event/pre-event'> 
-                                <p>Goes to Orphanage</p>
+                                <p>Sharing is Caring</p>
                             </Link>          
                             <Link to='/event/main-event'>
                                 <p>IPConvex</p>
