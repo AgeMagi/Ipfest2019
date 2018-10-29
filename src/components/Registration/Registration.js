@@ -180,8 +180,7 @@ export default class Registration extends Component {
     }
 
     confirmPayment() {
-        console.log('HEHE');
-        window.location.replace("http://localhost:3000/registration/confirmed-payment");
+        window.location.replace("http://ipfest2019.com/registration/confirmed-payment");
     }
 
     render() {

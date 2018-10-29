@@ -40,7 +40,7 @@ export default class PetroDebateRegistration extends Component {
                         <h1>PETRODEBATE COMPETITION</h1>
                     </div>
                     <iframe name='hidden_iframe' id='hidden_iframe' className='hidden_iframe' onLoad={() => {
-                        if (this.state.submitted) {window.location=`http://localhost:3000/registration/submitted/${this.state.id}`};
+                        if (this.state.submitted) {window.location=`http://ipfest2019.com/registration/submitted/${this.state.id}`};
                     }}></iframe>
                     <form
                         action='https://docs.google.com/forms/u/3/d/e/1FAIpQLSfh7H0vRqCtZioKX6LvgNSxcZYQxnHTXySmgQ-v9MuUjB1Fig/formResponse'
