@@ -40,7 +40,7 @@ export default class SmartRegistration extends Component {
                         <h1>SMART COMPETITION</h1>
                     </div>
                     <iframe name='hidden_iframe' id='hidden_iframe' className='hidden_iframe' onLoad={() => {
-                        if (this.state.submitted) {window.location=`http://localhost:3000/registration/submitted/${this.state.id}`};
+                        if (this.state.submitted) {window.location=`http://ipfest2019.com/registration/submitted/${this.state.id}`};
                     }}></iframe>
                     <form
                         action='https://docs.google.com/forms/u/3/d/e/1FAIpQLSe2mA_xmIXfrikUwN5ngGfSfc0BMAtWDpQiCykys0ixAmH3Vw/formResponse'
