@@ -92,7 +92,7 @@ export default class Navigation extends React.Component {
 							</DropdownItem>
 							<DropdownItem>
 								<NavLink className="navbar-link navbar-dropdown" to="/competition/mud-innovation-competition">
-									<h1><strong>MUD INNOVATIVE COMPETITION</strong></h1>
+									<h1><strong>MUD INNOVATION COMPETITION</strong></h1>
 								</NavLink>
 							</DropdownItem>
 							<DropdownItem>

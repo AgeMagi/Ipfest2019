@@ -81,7 +81,7 @@ export default class Footer extends Component {
                                 <p>PetroDebate Competition</p>
                             </Link>                            
                             <Link to='/competition/mud-innovation-competition'>
-                                <p>Mud Innovative Competition</p>
+                                <p>Mud Innovation Competition</p>
                             </Link>                            
                             <Link to='/competition/paper-poster-competition'>
                                 <p>Paper and Poster Competition</p>

@@ -37,7 +37,7 @@ export default class MudInnovativionRegistration extends Component {
                         />
                     </div>
                     <div className='registration-form-title'>
-                        <h1>MUD INNOVATIVE COMPETITION</h1>
+                        <h1>MUD INNOVATION COMPETITION</h1>
                     </div>
                     <iframe name='hidden_iframe' id='hidden_iframe' className='hidden_iframe' onLoad={() => {
                         if (this.state.submitted) {window.location=`http://ipfest2019.com/registration/submitted/${this.state.id}`};

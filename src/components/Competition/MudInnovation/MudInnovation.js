@@ -25,7 +25,7 @@ const registration = [
         'title': 'GENERAL RULES',
         'content':  <ol className='list-notab'>
                         <li>
-                            <p>IPFEST 2019 Mud Innovative Competition is open for undergraduate students only.</p>
+                            <p>IPFEST 2019 Mud Innovation Competition is open for undergraduate students only.</p>
                         </li>
                         <li>
                             <p>Each university can send a maximum of 2 teams with each team consisting of 3 people.</p>
@@ -40,7 +40,7 @@ const registration = [
                             <p>Case for each team will be sent on <strong>January 17<sup>th</sup>, 2019 at 07.00 P.M (GMT +7)</strong> to each team leader’s email.</p>
                         </li>
                         <li>
-                            <p>Present your answer and solution using your presentation (.ppt file) at IPFEST 2018 Mud Innovative Competition Main Event <strong>(February 15<sup>th</sup>, 2019)</strong></p>
+                            <p>Present your answer and solution using your presentation (.ppt file) at IPFEST 2018 Mud Innovation Competition Main Event <strong>(February 15<sup>th</sup>, 2019)</strong></p>
                         </li>
                         <li>
                             <p>All presentations should be delivered in English.</p>
@@ -58,7 +58,7 @@ const registration = [
                             <p>Judges’ decisions are final and absolute.</p>
                         </li>
                         <li>
-                            <p>All regulations of IPFEST 2019 Mud Innovative Competition are subject to change. All changes will be informed on technical meeting or days before the competition through the team leader’s email.</p>
+                            <p>All regulations of IPFEST 2019 Mud Innovation Competition are subject to change. All changes will be informed on technical meeting or days before the competition through the team leader’s email.</p>
                         </li>
                     </ol>
     },
@@ -273,7 +273,7 @@ const registration = [
                                 <p>Result Tournament official decisions are absolute and final.</p>
                             </li>
                             <li>
-                                <p>Results of Mud Innovative Competition will be announced on the Gala Dinner IPFEST 2019.</p>
+                                <p>Results of Mud Innovation Competition will be announced on the Gala Dinner IPFEST 2019.</p>
                             </li>
                             <li>
                                 <p>All participants have their right to see the final score given by the judges.</p>
@@ -284,7 +284,7 @@ const registration = [
     {
         'title': 'AWARDS',
         'content':  <div>
-                        <p>The Winners of IPFEST 2019 Mud Innovative Competition will be awarded moey and a certificate:</p>
+                        <p>The Winners of IPFEST 2019 Mud Innovation Competition will be awarded moey and a certificate:</p>
                         <p>1st Winner &ensp; &nbsp; &nbsp;: IDR 5,000,000 + certificate</p>
                         <p>2nd Winner &ensp;: IDR 4,000.000 + certificate</p>
                         <p>3rd Winner &ensp; &nbsp;: IDR 3,000,000 + certificate</p>
@@ -301,7 +301,7 @@ const registration = [
                                 <p>Submit the transfer slip to the link that will be given via email after registration</p>
                             </li>
                             <li>
-                                <p>The mechanism of the selection is on first-pay, first-served basis, the first 12 teams that complete both the registration and payment process will be selected to join IPFEST 2019 Mud Innovative Competition.</p>
+                                <p>The mechanism of the selection is on first-pay, first-served basis, the first 12 teams that complete both the registration and payment process will be selected to join IPFEST 2019 Mud Innovation Competition.</p>
                             </li>
                             <li>
                                 <p>Please submit all the registration requirements to our official email <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a> before <strong>November 30<sup>th</sup>, 2018 (1<sup>st</sup> batch)</strong> and <strong>January 15<sup>th</sup>,  2019 (2<sup>nd</sup> batch)</strong>.</p>
@@ -363,7 +363,7 @@ export default class MudInnovationCompetition extends Component {
                         </Col>
                         <Col sm={9} className='competition-detail-content-explain'>
                             <p>
-                                IPFEST 2019 Mud Innovative Competition is a competition which challenge particiapnts’ knowledge about drilling mud in the petroleum sector, as well as their analytical skills and creativity to make the most efficient drilling mud. All participants will be given a case by petroleum experts coming from different background. Subsequently, they will do a presentation about their design and analysis result of their mud in front of honorable judges.
+                                IPFEST 2019 Mud Innovation Competition is a competition which challenge particiapnts’ knowledge about drilling mud in the petroleum sector, as well as their analytical skills and creativity to make the most efficient drilling mud. All participants will be given a case by petroleum experts coming from different background. Subsequently, they will do a presentation about their design and analysis result of their mud in front of honorable judges.
                             </p>
                         </Col>
                     </Row>
