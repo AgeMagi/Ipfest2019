@@ -85,3 +85,20 @@ p {
     margin-bottom: 20px;
     margin-left: 20px;
 }
+
+.dresscode {
+    padding: 10px;
+}
+
+.dresscode img {
+    margin-bottom: 20px;
+}
+
+.dresscode .content {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.dresscode .content p {
+    font-size: 20px;
+}

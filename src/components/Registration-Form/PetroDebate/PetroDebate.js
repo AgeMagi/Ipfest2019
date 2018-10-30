@@ -49,6 +49,11 @@ export default class PetroDebateRegistration extends Component {
                         id='mG61Hd'
                         onSubmit={this.state.submitted = true}
                     >
+                        <input 
+                            type='hidden'
+                            value={this.state.id}
+                            name='entry.1242528204'
+                        />
                         <Row>
                             <Col sm={4}>
                                 <h2>UNIVERSITY</h2>

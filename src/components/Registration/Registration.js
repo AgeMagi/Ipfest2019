@@ -163,6 +163,34 @@ const registration = [
                         </li>
                     </ol>
     },
+    {
+        'title': 'DRESSCODE',
+        'content':  <div className='dresscode'>
+                        <Row>
+                            <Col sm={4}> 
+                                <img 
+                                    src={require('../../images/perempuan.png')}
+                                />
+                                <img 
+                                    src={require('../../images/laki.png')}
+                                />
+                            </Col>
+                            <Col sm={4}>
+                                <div className='content'>
+                                    <p className='blue'>Smart Competition</p>
+                                    <p className='grey'>University blazer (National delegates) and Formal attire (International delegates) : </p>
+                                </div>                                
+                                <div className='content'>
+                                    <p className='blue'>Paper and Poster Competition, Oil Rig Design Competition, Business Case Competition and PetroDebate Competition</p>
+                                    <p className='grey'>Formal Attire</p>
+                                </div>
+                                <div className='content'>
+                                    <p className='blue'>Mud Innovation Competition and Plan of Development Competition</p>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
+    },  
 ]
 export default class Registration extends Component {
     constructor(props) {
@@ -171,7 +199,7 @@ export default class Registration extends Component {
         this.changeRegistrationContent = this.changeRegistrationContent.bind(this);
 
         this.state = {
-            registrationContent: registration[0],
+            registrationContent: registration[6],
         }
     }
 
@@ -203,17 +231,14 @@ export default class Registration extends Component {
                             <p onClick={() => this.setState({registrationContent: registration[2]})}>
                                 <strong>Rule Change</strong>
                             </p>
-                            <p>
-                                <strong>Dress Code</strong>
+                            <p onClick={() => this.setState({registrationContent: registration[6]})}>
+                                <strong>DressCode</strong>
                             </p>
                             <p onClick={() => this.setState({registrationContent: registration[3]})}>
                                 <strong>Transportation and Accommodation</strong>
                             </p>
                             <p onClick={() => this.setState({registrationContent: registration[4]})}>
                                 <strong>Registration Mechanism</strong>
-                            </p>
-                            <p>
-                                <strong>Packages</strong>
                             </p>
                             <p onClick={() => this.setState({registrationContent: registration[5]})}>
                                 <strong>Payment</strong>

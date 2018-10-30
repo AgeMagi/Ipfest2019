@@ -48,6 +48,11 @@ export default class OilRigRegistration extends Component {
                         id='mG61Hd'
                         onSubmit={this.state.submitted = true}
                     >
+                        <input 
+                            type='hidden'
+                            value={this.state.id}
+                            name='entry.578705495'
+                        />
                         <Row>
                             <Col sm={4}>
                                 <h2>UNIVERSITY</h2>
