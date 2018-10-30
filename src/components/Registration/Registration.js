@@ -199,7 +199,7 @@ export default class Registration extends Component {
         this.changeRegistrationContent = this.changeRegistrationContent.bind(this);
 
         this.state = {
-            registrationContent: registration[6],
+            registrationContent: registration[0],
         }
     }
 

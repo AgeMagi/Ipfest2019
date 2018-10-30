@@ -18,7 +18,7 @@ const registration = [
         'content':  <div>
                         <p>Venue &ensp; &ensp;: Central Library of Institute of Technology Bandung</p>
                         <p>Date &ensp; &ensp; &nbsp; &nbsp;: Friday, February 15<sup>th</sup>, 2019</p>
-                        <p>Time &ensp; &ensp; &nbsp; &nbsp;: 08:00 AM - end (GMT+7)</p>
+                        <p>Time &ensp; &ensp; &nbsp; &nbsp;: 07:30 AM - end (GMT+7)</p>
                     </div>
     },
     {
@@ -43,7 +43,7 @@ const registration = [
                             <p>The preliminary essay submitted must not include university’s name and attribute (logo, etc), only use team’s name and leader name</p>
                         </li>
                         <li>
-                            <p>Top ten (10) teams in IPFEST 2018 Business Case Competition Preliminary Round will be invited to IPFEST 2019 Business Case Competition Final Round.</p>
+                            <p>Top ten (10) teams in IPFEST 2019 Business Case Competition Preliminary Round will be invited to IPFEST 2019 Business Case Competition Final Round.</p>
                         </li>
                         <li>
                             <p>Each team that have been proceed to IPFEST2019 Business Case Competition Final Round must attend the technical meeting at <strong>February 14<sup>th</sup>, 2019.</strong></p>
@@ -55,7 +55,7 @@ const registration = [
                             <p>The cases will be sent directly to team leader’s email.</p>
                         </li>
                         <li>
-                            <p>Judges’ decisions are final and absolute.></p>
+                            <p>Judges’ decisions are final and absolute</p>
                         </li>
                         <li>
                             <p>All regulations of IPFEST 2019 Business Case Competition are subjected to change.</p>
@@ -106,7 +106,7 @@ const registration = [
                                     <p>Paragraph Spacing : 1,5</p>
                                 </li>
                                 <li>
-                                    <p>File name IPFEST2019_BusinessCaseCompetition_Preliminary_(Team Name).pdf</p>
+                                    <p>File name IPFEST2019_BusinessCaseCompetition_Preliminary_(Team Name).ppt</p>
                                 </li>
                             </ol>
                         </li>
@@ -250,10 +250,10 @@ const registration = [
                                 <p>The teams that has passed the preliminary round, have to pay the remaining fees which is:</p>
                                 <ol type='a'>
                                     <li>
-                                        <p>IDR 450,000 per team for domestic students.</p>
+                                        <p>IDR 450,000 per person for domestic students.</p>
                                     </li>
                                     <li>
-                                        <p>USD 33 per team for international students.</p>
+                                        <p>USD 33 per person for international students.</p>
                                     </li>
                                 </ol>
                             </li>
@@ -264,7 +264,7 @@ const registration = [
                                 <p>Any remaining question, please ask via e-mail to <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a> with subject “Business Case Competition Enquiry”.</p>
                             </li>
                             <li>
-                                <p><a href="https://drive.google.com/uc?export=download&id=17lsDE3zBYXef-1r0tUj705laj_8scufI">Download</a> Anti Plagirsm Statement Lefter</p>
+                                <p><a href="https://drive.google.com/uc?export=download&id=1WHkmDdA1Vpcwn-Nzawf2wXLxQhB014bR">Download</a> Anti Plagirsm Statement Lefter</p>
                             </li>
                         </ol>
                     </div>

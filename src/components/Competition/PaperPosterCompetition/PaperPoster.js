@@ -31,7 +31,7 @@ const registration = [
                             <p>Only maximum 2 (two) author(s) for each team are eligible to compete</p>
                         </li>
                         <li>
-                            <p>Each university is allowed to represent a maximum of 2 (two) representative(s)</p>
+                            <p>Each university MAY send any number of teams for the abstract submission. However, only 2 teams per university are ALLOWED to be chosen and continue the participation.</p>
                         </li>
                         <li>
                             <p>All participants of one team must be from the same university</p>
@@ -213,7 +213,7 @@ const registration = [
                                 </ol>
                             </li>
                             <li>
-                                <p>Poster (To : 25 points)</p>
+                                <p>Poster (Total : 25 points)</p>
                                 <ol type='a'>
                                     <li>
                                         <p>Content (Maximum: 10 points)</p>
@@ -298,12 +298,12 @@ const registration = [
         'content':  <div>
                         <p>1st Winner &ensp; &ensp; &nbsp; &nbsp;: IDR 3,000,000 + certificate</p>
                         <p>2nd Winner &ensp; &ensp;: IDR 2,000.000 + certificate</p>
-                        <p>3 Winner &ensp; &nbsp;: IDR 1,000,000 + certificate</p>
+                        <p>3rd Winner &ensp; &nbsp;: IDR 1,000,000 + certificate</p>
                         <p>Favorite Winner (Best Poster) : IDR 500,000 + certificate</p>
                     </div>
     },
     {
-        'title': 'REGISTRATION',
+        'title': 'REGISTRATION AND SUBMISSION',
         'content':  <div>
                         <ol className='list-notab'>
                             <li>
@@ -322,7 +322,7 @@ const registration = [
                                 <p>Please submit all the registration requirements to IPFEST 2019 official email  <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a> maximum <strong>November 25<sup>th</sup>, 2018</strong></p>
                             </li>
                             <li>
-                                <p>bstract selection announcement will be on <strong>January 17<sup>th</sup>, 2019</strong> and will be shared at IPFEST 2019 official account and sent directly to your email</p>
+                                <p>Abstract selection announcement will be on <strong>January 17<sup>th</sup>, 2019</strong> and will be shared at IPFEST 2019 official account and sent directly to your email</p>
                             </li>
                             <li>
                                 <p>If your team have passed the abstract selection phase, payment have to be paid maximum <strong>January 31<sup>th</sup>, 2019</strong>. Submit your transfer slip to the link that will be given directly via email after registration</p>
@@ -347,7 +347,7 @@ const registration = [
                                 <p>If there any question, please ask via e-mail to our official email : <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a> </p>
                             </li>
                             <li>
-                                <p><a href="https://drive.google.com/uc?export=download&id=17lsDE3zBYXef-1r0tUj705laj_8scufI">Download</a> Anti Plagirsm Statement Lefter</p>
+                                <p><a href="https://drive.google.com/uc?export=download&id=1RmL2sKEwmXl6YAI285yMyc6Da_Hun6Rp">Download</a> Anti Plagirsm Statement Lefter</p>
                             </li>
                         </ol>
                     </div>
@@ -379,7 +379,7 @@ export default class PaperPosterCompetition extends Component {
         super(props);
 
         this.state = {
-            registrationContent: registration[13],
+            registrationContent: registration[0],
         }
     }
 

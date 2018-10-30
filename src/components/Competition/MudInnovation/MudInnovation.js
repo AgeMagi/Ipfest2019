@@ -342,7 +342,7 @@ export default class MudInnovationCompetition extends Component {
         super(props);
 
         this.state = {
-            registrationContent: registration[11],
+            registrationContent: registration[0],
         }
     }
 

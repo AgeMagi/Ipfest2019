@@ -14,7 +14,7 @@ export default class About extends Component {
                     <Row>
                         <Col className='about-video' sm='6'>
                             <h2><br></br></h2>
-                            <video autoPlay muted loop>
+                            <video autoPlay loop>
                                 <source src={require('../../videos/Video Profile Really Small.mp4')} />
                             </video>
                         </Col>
