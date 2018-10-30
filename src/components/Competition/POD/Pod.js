@@ -28,7 +28,7 @@ const registration = [
                             <p>IPFEST 2019 Plan of Development Competition participants are all the university students related to Oil and Gas Industry majors. </p>
                         </li>
                         <li>
-                            <p>IPFEST 2019 Plan of Development Competition participants must be undergraduated student.</p>
+                            <p>IPFEST 2019 Plan of Development Competition participants must be undergraduate student.</p>
                         </li>
                         <li>
                             <p>IPFEST 2019 Plan of Development Competition consists of 10 teams and each team consists of 4 –5 students.</p>
