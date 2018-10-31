@@ -19,6 +19,7 @@ export default class SmartRegistration extends Component {
         })
 
         this.enabledSubmit = this.enabledSubmit.bind(this);
+        this.state.submitted = false;
     }
 
     enabledSubmit() {
