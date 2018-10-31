@@ -331,7 +331,7 @@ const registration = [
                                 <p>Registration will be conducted in IPFEST 2019 website registration form at <a href='http://www.ipfest2019.com'>www.ipfest2019.com</a> at <strong>November 1<sup>st</sup>, 2018 – November 25<sup>th</sup>, 2018</strong> and <strong>December 9<sup>th</sup>, 2018 – January 10<sup>th</sup>, 2019</strong>.</p>
                             </li>
                             <li>
-                                <p>Delegates official announcement will be on <sup>January 17<sup>th</sup>, 2019</sup> and will be shared at IPFEST 2019 official account and sent directly to your email</p>
+                                <p>Delegates official announcement will be on January 17<sup>th</sup>, 2019 and will be shared at IPFEST 2019 official account and sent directly to your email</p>
                             </li>
                             <li>
                                 <p>Only the first eighteen (18) teams which have completed the registration and payment process will be invited to Main Event of IPFEST 2019 Smart Competition at <strong>February 15<sup>th</sup>, 2019</strong>.</p>

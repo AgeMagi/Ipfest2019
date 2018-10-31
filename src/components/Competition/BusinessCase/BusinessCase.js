@@ -70,7 +70,7 @@ const registration = [
                         <ol className='list-notab'>
                             <li>
                                 <p>Preliminary Round</p>
-                                <p>At preliminary round, each team will analyze Preliminary case and find the solution in the form of an essay. The prelimenary case will be given on <strong>November 31<sup>st</sup>, 2018</strong> and will be send directly to your leader’s email. The essay must be in English and submitted before <strong>December 11<sup>th</sup>, 2018 23.59</strong>. Submission of the essay must in .pdf form with file name : IPFEST2019_BusinessCaseCompetition_Preliminary_(Team Name).doc and submitted to IPFEST 2019 official email (<a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a>) and cc to <a href='https://baskoro1404@gmail.com'>baskoro1404@gmail.com</a>). The subject of the email is BusinessCaseCompetition_IPFEST2019_Preliminary_(Team Name)_University. After submitting your essay, please verify immediately to our contact person. The top 10 teams selected by the judge will proceed to the final round and will be announced at <strong>January 17<sup>th</sup>, 2019</strong>.</p>
+                                <p>At preliminary round, each team will analyze Preliminary case and find the solution in the form of an essay. The prelimenary case will be given on <strong>November 30<sup>st</sup>, 2018</strong> and will be send directly to your leader’s email. The essay must be in English and submitted before <strong>December 11<sup>th</sup>, 2018 23.59</strong>. Submission of the essay must in .pdf form with file name : IPFEST2019_BusinessCaseCompetition_Preliminary_(Team Name).pdf and submitted to IPFEST 2019 official email (<a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a>) and cc to <a href='https://baskoro1404@gmail.com'>baskoro1404@gmail.com</a>). The subject of the email is BusinessCaseCompetition_IPFEST2019_Preliminary_(Team Name)_University. After submitting your essay, please verify immediately to our contact person. The top 10 teams selected by the judge will proceed to the final round and will be announced at <strong>January 17<sup>th</sup>, 2019</strong>.</p>
                             </li>
                             <li>
                                 <p>Final Round</p>
@@ -106,13 +106,13 @@ const registration = [
                                     <p>Paragraph Spacing : 1,5</p>
                                 </li>
                                 <li>
-                                    <p>File name IPFEST2019_BusinessCaseCompetition_Preliminary_(Team Name).ppt</p>
+                                    <p>File name IPFEST2019_BusinessCaseCompetition_Preliminary_(Team Name).pdf</p>
                                 </li>
                             </ol>
                         </li>
                         <li>
                             <p>Final Round</p>
-                            <p>Each team can present their solution the best they can do as long as it is in .pdf form.</p>
+                            <p>Each team can present their solution the best they can do as long as it is in .ppt form.</p>
                         </li>
                     </ol>
     },
@@ -238,7 +238,7 @@ const registration = [
                                 <p>The fastest 24 teams that have paid via bank account will be given the case for preliminary round.</p>
                             </li>
                             <li>
-                                <p>The prelimenary case will be given on November 31st, 2018 and will be send directly to your leader’s email.</p>
+                                <p>The prelimenary case will be given on November 30st, 2018 and will be send directly to your leader’s email.</p>
                             </li>
                             <li>
                                 <p>The submission of preliminary case must be before <strong>December 11<sup>th</sup>, 2018 at 23.59 (GMT +7)</strong> to IPFEST 2019 official email <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a> (cc to <a href='https://baskoro1404@gmail.com'>baskoro1404@gmail.com</a>)</p>

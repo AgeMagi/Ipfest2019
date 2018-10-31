@@ -40,7 +40,7 @@ const registration = [
                             <p>Case for each team will be sent on <strong>January 17<sup>th</sup>, 2019 at 07.00 P.M (GMT +7)</strong> to each team leader’s email.</p>
                         </li>
                         <li>
-                            <p>Present your answer and solution using your presentation (.ppt file) at IPFEST 2018 Mud Innovation Competition Main Event <strong>(February 15<sup>th</sup>, 2019)</strong></p>
+                            <p>Present your answer and solution using your presentation (.ppt file) at IPFEST 2019 Mud Innovation Competition Main Event <strong>(February 15<sup>th</sup>, 2019)</strong></p>
                         </li>
                         <li>
                             <p>All presentations should be delivered in English.</p>

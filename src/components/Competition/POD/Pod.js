@@ -11,7 +11,7 @@ import './Pod.css';
 const registration = [
     {
         'title': 'THEME',
-        'content': <p>Enhanching and Implementing Insight to Planning Economic and Efficient Site on Dealing with Future Energy Demand</p>
+        'content': <p>Enhancing and Implementing Insight to Planning Economic and Efficient Site on Dealing with Future Energy Demand</p>
     },
     {
         'title': 'VENUE & DATE',
