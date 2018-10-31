@@ -12,7 +12,7 @@ export default class Faq extends Component {
             <div className='faq-container'>
                 <Container>
                     <h1 className='faq-theme'>
-                        Delegate Relations FAQ
+                        FAQ
                     </h1>
                     <div className='faq-content'>
                         <h5>
@@ -40,7 +40,7 @@ export default class Faq extends Component {
                     </div>
                     <div className='faq-content'>
                         <h5>
-                            <strong><i>Q: I have completed my payment but I haven’t received any email regarding my registration confirmation. What should I do?</i></strong>
+                            <strong><i>Q: I have completed my payment but I haven’t received any email regarding my registration confirmation&#8228; What should I do?</i></strong>
                         </h5>
                         <p className='answer'>
                             Please contact us through delegaterelations.ipfest@gmail.com or by messaging our Delegate Relations Manager (Ivy) through by +6281394619995 or line ID: olivinia.
