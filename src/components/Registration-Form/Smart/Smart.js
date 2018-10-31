@@ -19,7 +19,6 @@ export default class SmartRegistration extends Component {
         })
 
         this.enabledSubmit = this.enabledSubmit.bind(this);
-        this.state.submitted = false;
     }
 
     enabledSubmit() {
@@ -41,14 +40,15 @@ export default class SmartRegistration extends Component {
                         <h1>SMART COMPETITION</h1>
                     </div>
                     <iframe name='hidden_iframe' id='hidden_iframe' className='hidden_iframe' onLoad={() => {
-                        if (this.state.submitted) {window.location=`http://ipfest2019.com/registration/submitted/${this.state.id}`};
+                        if (this.state.submitted) {
+                            window.location=`http://ipfest2019.com/registration/submitted/${this.state.id}`
+                        };
                     }}></iframe>
                     <form
                         action='https://docs.google.com/forms/u/3/d/e/1FAIpQLSe2mA_xmIXfrikUwN5ngGfSfc0BMAtWDpQiCykys0ixAmH3Vw/formResponse'
                         target='hidden_iframe'
                         method='POST'
                         id='mG61Hd'
-                        onSubmit={this.state.submitted = true}
                     >
                         <input 
                             type='hidden'
@@ -235,7 +235,7 @@ export default class SmartRegistration extends Component {
                         <a href={`https://docs.google.com/forms/d/e/1FAIpQLSf8iLODkf4ENHm3q_WZ3ey-SlvjlwJ2jHUiNRMJHFhPQDyBHg/viewform?entry.718524588=${this.state.id}`} target="__blank">
                             <h2 className='upload-photo disabled' onClick={() => this.enabledSubmit()}>Upload Photo</h2>
                         </a>
-                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled}>SUBMIT</button>
+                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled} onClick={() => (this.setState({submitted: true}))}>SUBMIT</button>
                     </form>
                 </Container>  
             </div>

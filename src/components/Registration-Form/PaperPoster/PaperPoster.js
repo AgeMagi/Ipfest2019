@@ -47,7 +47,6 @@ export default class PaperPosterRegistration extends Component {
                         target='hidden_iframe'
                         method='POST'
                         id='mG61Hd'
-                        onSubmit={this.state.submitted = true}
                     >
                         <input 
                             type='hidden'
@@ -183,7 +182,7 @@ export default class PaperPosterRegistration extends Component {
                         <a href={`https://docs.google.com/forms/d/e/1FAIpQLSemFmY6wOMHs4rhYM_ak5i-u8_w1SYeQvxcPQxPXPbOw3BHtA/viewform?entry.136486014=${this.state.id}`} target="__blank">
                             <h2 className='upload-photo disabled' onClick={() => this.enabledSubmit()}>Upload Photo</h2>
                         </a>
-                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled}>SUBMIT</button>
+                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled} onClick={() => (this.setState({submitted: true}))}>SUBMIT</button>
                     </form>
                 </Container>  
             </div>

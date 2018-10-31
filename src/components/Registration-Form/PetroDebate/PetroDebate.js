@@ -47,7 +47,6 @@ export default class PetroDebateRegistration extends Component {
                         target='hidden_iframe'
                         method='POST'
                         id='mG61Hd'
-                        onSubmit={this.state.submitted = true}
                     >
                         <input 
                             type='hidden'
@@ -234,7 +233,7 @@ export default class PetroDebateRegistration extends Component {
                         <a href={`https://docs.google.com/forms/d/e/1FAIpQLSca2F5EsI5JEzbtz_MH-CMUQy6uwbtafNbfIlyl49dP_30xHA/viewform?entry.1121806841=${this.state.id}`} target="__blank">
                             <h2 className='upload-photo disabled' onClick={() => this.enabledSubmit()}>Upload Photo</h2>
                         </a>
-                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled}>SUBMIT</button>
+                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled} onClick={() => (this.setState({submitted: true}))}>SUBMIT</button>
                     </form>
                 </Container>  
             </div>

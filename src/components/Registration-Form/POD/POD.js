@@ -47,7 +47,6 @@ export default class PODRegistration extends Component {
                         target='hidden_iframe'
                         method='POST'
                         id='mG61Hd'
-                        onSubmit={this.state.submitted = true}
                     >
                         <input 
                             type='hidden'
@@ -336,7 +335,7 @@ export default class PODRegistration extends Component {
                         <a href={`https://docs.google.com/forms/d/e/1FAIpQLSf2QJPDuNU38wyzE81G0pJaC0XLh4S0HkrO0aNPD2ZfFqx6qA/viewform?entry.381623413=${this.state.id}`} target="__blank">
                             <h2 className='upload-photo disabled' onClick={() => this.enabledSubmit()}>Upload Photo</h2>
                         </a>
-                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled}>SUBMIT</button>
+                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled} onClick={() => (this.setState({submitted: true}))}>SUBMIT</button>
                     </form>
                 </Container>  
             </div>

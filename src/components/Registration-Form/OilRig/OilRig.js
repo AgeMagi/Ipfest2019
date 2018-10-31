@@ -46,7 +46,6 @@ export default class OilRigRegistration extends Component {
                         target='hidden_iframe'
                         method='POST'
                         id='mG61Hd'
-                        onSubmit={this.state.submitted = true}
                     >
                         <input 
                             type='hidden'
@@ -335,7 +334,7 @@ export default class OilRigRegistration extends Component {
                         <a href={`https://docs.google.com/forms/d/e/1FAIpQLSeYmDhX9XfrEn9_kb238swY94JjK5hn80iKQOGuQqo8CTibFA/viewform?entry.374487515=${this.state.id}`} target="__blank">
                             <h2 className='upload-photo disabled' onClick={() => this.enabledSubmit()}>Upload Photo</h2>
                         </a>
-                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled}>SUBMIT</button>
+                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled} onClick={() => (this.setState({submitted: true}))}>SUBMIT</button>
                     </form>
                 </Container>  
             </div>

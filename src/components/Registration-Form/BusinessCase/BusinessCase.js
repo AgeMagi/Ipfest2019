@@ -47,7 +47,6 @@ export default class BusinessCaseRegistration extends Component {
                         target='hidden_iframe'
                         method='POST'
                         id='mG61Hd'
-                        onSubmit={this.state.submitted = true}
                     >
                         <input 
                             type='hidden'
@@ -234,7 +233,7 @@ export default class BusinessCaseRegistration extends Component {
                         <a href={`https://docs.google.com/forms/d/e/1FAIpQLSfiSQ5hiV2W3xRv3kmOQ-aAezAwQBGNMTDbPb3JZlbkw8VG_Q/viewform?entry.1600687808=${this.state.id}`} target="__blank">
                             <h2 className='upload-photo disabled' onClick={() => this.enabledSubmit()}>Upload Photo</h2>
                         </a>
-                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled}>SUBMIT</button>
+                        <button type='submit' className='submit-form-registration' disabled={this.state.submitDisabled} onClick={() => (this.setState({submitted: true}))}>SUBMIT</button>
                     </form>
                 </Container>  
             </div>
