@@ -67,3 +67,9 @@ button:disabled {
     background-color: #cccccc;
     border-color: #cccccc;
 }
+
+button {
+    font-family: titleFont;
+    font-size: 20px;
+    color: white;
+}
