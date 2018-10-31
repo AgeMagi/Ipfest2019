@@ -30,7 +30,7 @@ export default class MainPageRegistration extends Component {
                                 <p>Choose the competition that you want to join.</p>
                             </li>
                             <li>
-                                <p>Fill out the registration form with your data correctly (Make sure the photo that you uploaded is <span className='red'>no bigger than 2 mb</span>).</p>
+                                <p>Fill out the registration form with your data correctly (Make sure the photo that you uploaded is <span className='red'>no bigger than 1 mb</span>).</p>
                             </li>
                             <li>
                                 <p>Chek your data before you submit.</p>
@@ -39,8 +39,7 @@ export default class MainPageRegistration extends Component {
                                 <p>Click <span className='blue'>Submit</span> and you will receive your <span className='red'>payment ID</span> and the details of the payment methods in your email.</p>
                             </li>
                             <li>
-                                <p>Pay the registration fee before <span className='red'>48 hours</span> (Make sure that you are making the payment in one receipt).</p>
-                                <p>After making the full payment, go to <span className='red'>ipfest2019.com/paymentconfirmation</span> and fill out your ID, team name, competition, and upload the payment proof (no bigger than 2 mb, and if you are paying via mobile banking, upload the screenshot of the payment proof).</p>
+                                <p>After making the full payment, go to <span className='red'>ipfest2019.com/registration/</span> and fill out your ID, team name, competition, and upload the payment proof (no bigger than 1 mb, and if you are paying via mobile banking, upload the screenshot of the payment proof).</p>
                             </li>
                             <li>
                                 <p>If your payment is correct, you will then receive an email indicting that your payment has been verrified, and the registration process is compete.</p>
