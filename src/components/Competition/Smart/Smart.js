@@ -215,6 +215,9 @@ const registration = [
                                         <p>Team will get a bonus question if the answer is right in toss-up question. Other teams are not allowed to answer the question.</p>    
                                     </li>
                                     <li>
+                                        <p>A team has 15 seconds to answer a bonus question. The 15 seconds starts when the moderator finishes reading question. If the moderator is asked to repeat the question the time will still be counting down. After 15 seconds the moderator will prompt the team for an answer. Once prompted, the team captain or another member he/she designates must immediately begin answering or forfeit the opportunity to answer.</p>
+                                    </li>
+                                    <li>
                                         <p>A team may begin its answer before the moderator is finished reading all of a bonus question. In such cass, the moderator stops reading when the team begin it's answer. If the bonus question contains another part, and the first part was answered correctly, the moderator then reads the next part of the question.</p>
                                     </li>
                                     <li>
@@ -256,7 +259,25 @@ const registration = [
                                         <p>The mechanism to answer the question is the same as loss-up question</p>
                                     </li>
                                     <li>
-                                        <p>The team who can answer the question correctly will be given 10 points and will mark the</p>
+                                        <p>The team who can answer the question correctly will be given 10 points and will mark the square as his own by its color</p>
+                                    </li>
+                                    <li>
+                                        <p>The team who can answer the question correctly also have the right to choose the next letter that have not been answered correctly (it can be the same or another letter). <strong>Note</strong> : the team only choose the question, every team will always get the same opportunity to answer the question</p>
+                                    </li>
+                                    <li>
+                                        <p>When the team mentions the next letter, please be clarified by saying another word to minimize official error in hearing the letter (<strong>for example</strong> : J, Juliet or R, Romeo)</p>
+                                    </li>
+                                    <li>
+                                        <p>Your team can steal other team points if there is another team square that contact (touch each other vertically, horizontally, or diagonally) to the square you answered correctly, so those squares is belong to your team </p>
+                                    </li>
+                                    <li>
+                                        <p>There is no reduction of team points for every wrong answer</p>
+                                    </li>
+                                    <li>
+                                        <p>If there is a question that cannot be answer by every team, the last team that have the right choose the letter will choose again another or the same letter to continue the game</p>
+                                    </li>
+                                    <li>
+                                        <p>Here we attach the link for the mechanism : <a href="https://bit.ly/BoardGameMechanism" target="__blank"><strong>bit.ly/BoardGameMechanism</strong></a></p>
                                     </li>
                                 </ol>
                             </li>

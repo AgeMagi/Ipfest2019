@@ -39,7 +39,7 @@ export default class MainPageRegistration extends Component {
                                 <p>Click <span className='blue'>Submit</span> and you will receive your <span className='red'>payment ID</span> and the details of the payment methods in your email.</p>
                             </li>
                             <li>
-                                <p>After making the full payment, go to <span className='red'>ipfest2019.com/registration/</span> and fill out your ID, team name, competition, and upload the payment proof (no bigger than 1 mb, and if you are paying via mobile banking, upload the screenshot of the payment proof).</p>
+                                <p>Payment should be done by November 30<sup>th</sup>, 2018 for Batch I and January 15<sup>th</sup>, 2019 for Batch II. After making the full payment, go to <span className='red'>ipfest2019.com/registration</span>, click button confirm payment, and fill out your ID, team name, competition, and upload the payment proof (no bigger than 1 mb, and if you are paying via mobile banking, upload the screenshot of the payment proof).</p>
                             </li>
                             <li>
                                 <p>If your payment is correct, you will then receive an email indicting that your payment has been verrified, and the registration process is compete.</p>
