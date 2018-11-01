@@ -137,7 +137,7 @@ export default class Navigation extends React.Component {
 						</DropdownMenu>
 					</Dropdown>
 					<NavItem>
-						<NavLink className="navbar-link btn disabled" to="/registration/">
+						<NavLink className="navbar-link" to="/registration/">
 							<h1><strong>REGISTRATION</strong></h1>
 						</NavLink>
 					</NavItem>
