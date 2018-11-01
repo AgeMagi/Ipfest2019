@@ -223,7 +223,7 @@ const registration = [
         'content':  <div>
                         <ol className='list-notab'>
                             <li>
-                                <p>Registration will be conducted in IPFEST 2019 website registration form at <a href='http://www.ipfest2019.com'>www.ipfest2019.com</a> at <strong>November 1<sup>st</sup>, 2018 – November 25<sup>th</sup>, 2018</strong> and <strong>December 9<sup>th</sup>, 2018 – January 10<sup>th</sup>, 2019</strong>.</p>
+                                <p>Registration will be conducted in IPFEST 2019 website registration form at <a href='http://www.ipfest2019.com'>www.ipfest2019.com</a> at <strong>November 1<sup>st</sup>, 2018 – November 25<sup>th</sup>, 2018</strong>.</p>
                             </li>
                             <li>
                                 <p>Preliminary fees for Business Case Competition is</p>
@@ -264,7 +264,7 @@ const registration = [
                                 <p>Any remaining question, please ask via e-mail to <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a> with subject “Business Case Competition Enquiry”.</p>
                             </li>
                             <li>
-                                <p><a href="https://drive.google.com/uc?export=download&id=1WHkmDdA1Vpcwn-Nzawf2wXLxQhB014bR">Download</a> Anti Plagirsm Statement Lefter (This letter should be made and signed <strong>ONLY</strong> be team's leader).</p>
+                                <p><a href="https://drive.google.com/uc?export=download&id=1WHkmDdA1Vpcwn-Nzawf2wXLxQhB014bR">Download</a> Anti Plagirsm Statement Lefter (This letter should be made and signed <strong>ONLY</strong> by team's leader).</p>
                             </li>
                         </ol>
                     </div>

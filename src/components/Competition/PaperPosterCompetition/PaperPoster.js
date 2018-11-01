@@ -310,7 +310,7 @@ const registration = [
                                 <p>Registration will be conducted in IPFEST 2019 website registration form at <a href='http://ipfest2019.com'>www.ipfest2019.com</a> at <strong>November 1<sup>st</sup> – 25<sup>th</sup>, 2018</strong></p>
                             </li>
                             <li>
-                                <p>Please submit your abstract to IPFEST 2019 official email : <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a> (cc : <a href='https://geraldadam2998@gmail.com'>geraldadam2998@gmail.com</a>) with subject : </p>
+                                <p>Please submit your abstract to IPFEST 2019 official email : <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a> (cc : <a href='https://geraldadam2998@gmail.com'>geraldadam2998@gmail.com</a>) with subject and file name: </p>
                                 <p>“PAPER_IPFEST 2019_ABSTRACT_(University Name)_(Team Leader Name)”</p>
                                 <p className='text-center'><strong>Example : </strong></p>
                                 <p>PAPER_IPFEST 2019_ABSTRACT_Institut Teknologi Bandung_Gerald Adam</p>
@@ -328,7 +328,7 @@ const registration = [
                                 <p>If your team have passed the abstract selection phase, payment have to be paid maximum <strong>January 31<sup>th</sup>, 2019</strong>. Submit your transfer slip to the link that will be given directly via email after registration</p>
                             </li>
                             <li>
-                                <p>Abstracts that have been passed the selection phase need to be developed in a full paper, poster and presentation file, and be submitted maximum February 8th, 2019 to IPFEST 2019 email : <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a> (cc : <a href='https://geraldadam2998@gmail.com'>geraldadam2998@gmail.com</a>) with subject :</p>
+                                <p>Abstracts that have been passed the selection phase need to be developed in a full paper, poster and presentation file, and be submitted maximum February 8th, 2019 to IPFEST 2019 email : <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a> (cc : <a href='https://geraldadam2998@gmail.com'>geraldadam2998@gmail.com</a>) with subject and file name:</p>
                                 <p>“PAPER_IPFEST 2019_FINAL PAPER_(University Name)_(Team Leader Name)”</p>
                                 <p className='text-center'><strong>Example : </strong></p>
                                 <p>PAPER_IPFEST 2019_FINAL PAPER_Institut Teknologi Bandung_Gerald Adam</p>
@@ -347,7 +347,7 @@ const registration = [
                                 <p>If there any question, please ask via e-mail to our official email : <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a> </p>
                             </li>
                             <li>
-                                <p><a href="https://drive.google.com/uc?export=download&id=1RmL2sKEwmXl6YAI285yMyc6Da_Hun6Rp">Download</a> Anti Plagirsm Statement Lefter (This letter should be made and signed <strong>ONLY</strong> be team's leader).</p>
+                                <p><a href="https://drive.google.com/uc?export=download&id=1RmL2sKEwmXl6YAI285yMyc6Da_Hun6Rp">Download</a> Anti Plagirsm Statement Lefter (This letter should be made and signed <strong>ONLY</strong> by team's leader).</p>
                             </li>
                         </ol>
                     </div>

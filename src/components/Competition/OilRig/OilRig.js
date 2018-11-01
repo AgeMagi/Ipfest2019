@@ -425,7 +425,7 @@ const registration = [
         'content':  <div>
                         <p>Open Registration &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; : Novermber 1<sup>st</sup>, 2018 - November 25<sup>th</sup>, 2018</p>
                         <p>Blueprint Submission Deadline &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: December 24<sup>th</sup>, 2018 at 23:59 (GMT + 7)</p>
-                        <p>Selection Phase Announcement : January 17<sup>th</sup>, 2019</p>
+                        <p>Selection Phase Announcement &ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp; &ensp;: January 17<sup>th</sup>, 2019</p>
                         <p>Competition Day &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp; : February 15<sup>th</sup>, 2019</p>
                     </div>
     },

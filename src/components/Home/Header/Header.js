@@ -24,21 +24,11 @@ class Header extends Component {
     componentDidMount() {
         const targetDate = 32;
         const todayDate = new Date().getDate();
-
-        this.setState({
-            daysLeft: targetDate - todayDate,
-        })
-
-        if (this.state.daysLeft == 1) {
-            
-        }
     }
 
 
 
     render() {
-        const daysLeft = this.state.daysLeft + " DAYS" + " LEFT";
-
         return (
             <div className='header-container'>
                 <video autoPlay muted loop className='video-header'>
@@ -46,11 +36,6 @@ class Header extends Component {
                 </video>
                 <div className="header-quote">
                     <h1><strong>"Broadening Insights on Dealing with Future Energy Demand"</strong></h1>
-                    <h1>
-                        <Badge className="header-badge" color="danger" pill>
-                            {daysLeft}
-                        </Badge>
-                    </h1>
                     <Row className='justify-content-sm-center'>
                         <Col sm='6'>
                             <a href="https://drive.google.com/uc?export=download&id=12Ofr_w7qqltEoT09usy7HqMuOahkcB6V" target="__blank">                                

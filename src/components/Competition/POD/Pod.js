@@ -249,7 +249,7 @@ const registration = [
                                 <p>Registration will be conducted in IPFEST 2019 website registration form at <a href='http://www.ipfest2019.com'>www.ipfest2019.com</a> at <strong>November 1<sup>st</sup>, 2018 – November 25<sup>th</sup>, 2018</strong> and <strong>December 9<sup>th</sup>, 2018 – January 10<sup>th</sup>, 2019 (Batch 2)</strong>.</p>
                             </li>
                             <li>
-                                <p>Partcipants official announcement will be on <strong>January 14<sup>th</sup>, 2019</strong> and will be shared at IPFEST 2019 official account and sent directly to your email</p>
+                                <p>Partcipants official announcement will be on <strong>January 17<sup>th</sup>, 2019</strong> and will be shared at IPFEST 2019 official account and sent directly to your email</p>
                             </li>
                             <li>
                                 <p>Registration fee have to be paid before <strong>November 30<sup>th</sup>, 2018 (Batch 1)</strong> and before <strong>January 5<sup>th</sup>, 2019 (Batch 2)</strong>. </p>

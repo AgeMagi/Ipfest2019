@@ -30,6 +30,7 @@ export default class SubmittedRegistration extends Component {
                                 <h1 className="submit-id">{this.props.match.params.id}</h1>
                                 <h2>An e-mail consist of the payment ID has been sent to the team leader's e-mail&#8228;</h2>
                                 <h2>For your convenience, we have also sent out the payment guideline for national and international delegates via e-mail&#8228;</h2>
+                                <h2>Please make sure to check your spam folder too&#8228;</h2>
                             </div>
                         </Col>                            
                     </Row>  

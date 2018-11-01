@@ -107,11 +107,6 @@ export default class Content extends Component {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col sm='4'>
-                                    <div className='content-title'>
-                                        <p><strong>October 22nd, 2018</strong></p>
-                                    </div>
-                                </Col>
                                 <img 
                                     className='content-border'
                                     src={require('../../../../images/bottom-content.png')}
@@ -143,11 +138,6 @@ export default class Content extends Component {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col sm='4'>
-                                    <div className='content-title'>
-                                        <p><strong>November 1st, 2018</strong></p>
-                                    </div>
-                                </Col>
                                 <img 
                                     className='content-border'
                                     src={require('../../../../images/bottom-content.png')}
@@ -157,43 +147,7 @@ export default class Content extends Component {
                         <Col sm="6" className='content-image'>
                             <UncontrolledCarousel items={items2}/>
                         </Col>
-                    </Row>
-                    <Row className='content'>
-                        <Col sm='6'>
-                            <Row>
-                                <img 
-                                    className='content-border'
-                                    src={require('../../../../images/top-content.png')}
-                                />
-                                <Col sm='4'>
-                                    <div className='content-title'>
-                                        <h2>Energy Insight : High School Visit</h2>
-                                    </div>
-                                </Col>
-                                <Col sm='8'>
-                                    <div className='content-text'>
-                                        <p>
-                                            IPFEST 2019 will come to several high schools in Bandung for giving interesting information about actual news in petroleum industry and also information how to survive in Bandung Institute of Technology. We will also give posters to the high school about awareness about energy and make them more interested in this field. IPFEST 2019 will also make an exhibition located in ITB where public can come and learn more about energy! This exhibition will be held at the same time as blood donor event.
-                                        </p>
-                                    </div>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col sm='4'>
-                                    <div className='content-title'>
-                                        <p><strong>November 1st, 2018</strong></p>
-                                    </div>
-                                </Col>
-                                <img 
-                                    className='content-border'
-                                    src={require('../../../../images/bottom-content.png')}
-                                />  
-                            </Row>
-                        </Col>
-                        <Col sm="6" className='content-image'>
-                            <UncontrolledCarousel items={items3}/>
-                        </Col>
-                    </Row>
+                    </Row>                   
                     <Row className='content'>
                         <Col sm='6'>
                             <Row>
@@ -215,11 +169,6 @@ export default class Content extends Component {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col sm='4'>
-                                    <div className='content-title'>
-                                        <p><strong>November 11th, 2018</strong></p>
-                                    </div>
-                                </Col>
                                 <img 
                                     className='content-border'
                                     src={require('../../../../images/bottom-content.png')}
@@ -251,11 +200,6 @@ export default class Content extends Component {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col sm='4'>
-                                    <div className='content-title'>
-                                        <p><strong>January 18th, 2018</strong></p>
-                                    </div>
-                                </Col>
                                 <img 
                                     className='content-border'
                                     src={require('../../../../images/bottom-content.png')}
@@ -287,11 +231,6 @@ export default class Content extends Component {
                                 </Col>
                             </Row>
                             <Row>
-                                <Col sm='4'>
-                                    <div className='content-title'>
-                                        <p><strong>January 20th, 2018</strong></p>
-                                    </div>
-                                </Col>
                                 <img 
                                     className='content-border'
                                     src={require('../../../../images/bottom-content.png')}
