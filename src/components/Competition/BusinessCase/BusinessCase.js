@@ -37,7 +37,7 @@ const registration = [
                             <p>The competition consists of 2 rounds, the preliminary round and the final round.</p>
                         </li>
                         <li>
-                            <p>The first twenty-four (24) teams that have completed the payment process will be given the case for Preliminary Round. They will be notified through IPFEST 2019 website and e-mail. (kenapa ga unlimited aja?)</p>
+                            <p>The first twenty-four (24) teams that have completed the payment process will be given the case for Preliminary Round. They will be notified through IPFEST 2019 website and e-mail.</p>
                         </li>
                         <li>
                             <p>The preliminary essay submitted must not include university’s name and attribute (logo, etc), only use team’s name and leader name</p>
