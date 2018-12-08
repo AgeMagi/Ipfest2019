@@ -6,7 +6,7 @@ import './News.css';
 
 const items = [
     {
-        src: require('../../../images/News/lates_news1.jpg')
+        src: require('../../../images/News/latest_news1.jpg')
     }, 
     {
         src: require('../../../images/News/latest_news2.jpg')
@@ -24,13 +24,13 @@ export default class News extends Component {
                     <h2>Latest News</h2>
                     <Row>
                         <Col sm={6} className='news-title'>
-                            <h1>Calling The Success of IPFEST 2018</h1>
+                            <h1>Sharing is Caring: Bringing Happiness to Children</h1>
                         </Col>
                     </Row>
                     <Row className="news-content-container">
                         <Col sm="6">
                             <p>
-                                Still in the collaboration of SPE ITB SC, IATMI SM ITB, and HMTM “PATRA” ITB, we are proudly present to you, Integrated Petroleum Festival (IPFEST) 2019. An annual international petroleum competition-based event, held in Institut Teknologi Bandung. Aiming for a bigger and better event, we are running 9 events and 7 international competitions. Bringing this year’s theme, “Broadening Insight on Dealing with Future Energy Demand”, with hope on triggering young energy enthusiasts’ creative ideas on bringing the energy industry into a better level.
+                                Sharing is Caring is one of several pre-events held on IPFEST 2019 in November 11th, 2018. The event was held as a way to bring happiness to children and teach them lots of stuff, as well. It was held at Panti Asuhan Bayi Sehat, a well-known orphanage in Bandung who takes care of children of high diversity. Committees play together with children on drawing competitions and games, such as puzzles. (NP)
                             </p>
                         </Col>
                         <Col sm="6">
