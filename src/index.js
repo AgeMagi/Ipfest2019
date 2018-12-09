@@ -52,10 +52,7 @@ ReactDOM.render(
                     <Route path="/registration-form" component={ MainPageRegistration } />
                     <Route path='/registration/plan-of-development' component={ PODRegistration } />
                     <Route path='/registration/petrodebate' component={ PetroDebateRegistration } />
-                    <Route path='/registration/paper-and-poster' component={ PaperPosterRegistration } />
-                    <Route path='/registration/oil-rig-design' component={ OilRigRegistration } />
                     <Route path='/registration/mud-innovative' component={ MudInnovativionRegistration } />
-                    <Route path='/registration/business-case' component={ BusinessCaseRegistration } />
                     <Route path='/registration/smart' component={ SmartRegistration } />
                     <Route path='/registration/submitted/:id' component={ SubmittedRegistration } />
                     <Route path="/registration" component = { Registration } />
