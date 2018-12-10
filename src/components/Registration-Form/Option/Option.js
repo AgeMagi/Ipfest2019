@@ -25,9 +25,6 @@ export default class OptionRegistration extends Component {
                         <Link to='/registration/plan-of-development'>
                             <h4>PLAN OF DEVELOPMENT COMPETITION</h4>
                         </Link>
-                        <Link to='/registration/mud-innovative'>
-                            <h4>MUD INNOVATION COMPETITION</h4>
-                        </Link>
                         <Link to='/registration/petrodebate'>
                             <h4>PETRODEBATE COMPETITION</h4>
                         </Link>
