@@ -186,7 +186,7 @@ const registration = [
                             <p>Written in English in .pdf format for Poster and .ppt format for Presentation file</p>
                         </li>
                         <li>
-                            <p>Poster orientation should be in portrait and A0 paper size (841 mm x 1189 mm)</p>
+                            <p>Poster orientation should be in portrait and A2 paper size (420 mm x 594 mm)</p>
                         </li>
                         <li>
                             <p>Poster and presentation file should give brief explanation about full paper</p>

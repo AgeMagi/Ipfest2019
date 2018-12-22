@@ -73,7 +73,7 @@ const registration = [
                                 <p>Participants will write a final report regarding the mud they have analyzed based on the study case given</p>
                             </li>
                             <li>
-                                <p>Participants will be given a total 30 minutes consisting of presentation and Q&A from the judges. Time given are divided into 15 minutes for presentation and 15 minutes for Q&A session.</p>
+                                <p>Participants will be given a total 25 minutes consisting of presentation and Q&A from the judges. Time given are divided into 15 minutes for presentation and 10 minutes for Q&A session.</p>
                             </li>
                             <li>
                                 <p>The presentation (.ppt) should be presented in English and submitted to the committee to <a href='https://ipfest2019@gmail.com'>ipfest2019@gmail.com</a> (cc: <a href='https://andrekurnia01@gmail.com'>andrekurnia01@gmail.com</a>) with subject and file name :</p>

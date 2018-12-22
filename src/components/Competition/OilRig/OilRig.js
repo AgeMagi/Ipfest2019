@@ -51,7 +51,7 @@ const registration = [
                             <p>This competition registration will be opened one batch only.</p>
                         </li>
                         <li>
-                            <p>Each team <strong>MUST</strong> send blueprint of the Oil Rig Design. Later, 10 best blueprints will be announced to continue to the main event. The announcement will be broadcasted on the official website of IPFEST 2019 and by email from the official E-mail of IPFEST 2019.</p>
+                            <p>Each team <strong>MUST</strong> send blueprint of the Oil Rig Design. Later, 8 best blueprints will be announced to continue to the main event. The announcement will be broadcasted on the official website of IPFEST 2019 and by email from the official E-mail of IPFEST 2019.</p>
                         </li>
                         <li>
                             <p>Competition rules are subject to change. Any changes of rules, clarifications, or agenda will be announced to all participants via E-mail or at Technical Meeting one day before the event</p>
@@ -131,7 +131,7 @@ const registration = [
                             <p>Failure of complying with the committee’s rules may result in point deduction and disqualification</p>
                         </li>
                         <li>
-                            <p>The budget of the rig making is Rp600,000</p>
+                            <p>The budget of the rig making is Rp600,000. The recipes for each material bought have to be brought on the presentation day and will be submitted to the committee after the presentation ends.</p>
                         </li>
                     </ol>
     },
@@ -326,7 +326,7 @@ const registration = [
                                         <p>After the wave maker is turned off, the committee will measure the length up and down the mock-up of the wave that has been recorded on paper. Representatives of the participants are able to watch and see the committee when making measurements. (1 decimal places)</p>
                                     </li>
                                     <li>
-                                        <p>After 10 teams do the test of heave motion, there will be conducted Ranking of the test results and sorting heave motion is based on the smallest value of the distance up and down mock-up against the waves. The smallest distance value will get the biggest points</p>
+                                        <p>After 8 teams do the test of heave motion, there will be conducted Ranking of the test results and sorting heave motion is based on the smallest value of the distance up and down mock-up against the waves. The smallest distance value will get the biggest points</p>
                                     </li>
                                     <li>
                                         <p>Ballasting system is allowed in this test. However, the rig cannot be perforated to keep water inside, the stability will be coming from load (weight plates) which is used for the load test, attached to the rig. Black tape will be provided to attach the load.</p>
