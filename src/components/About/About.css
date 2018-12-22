@@ -36,6 +36,10 @@ p {
 
 .organogram {
     text-align: center;
-
     padding-bottom: 50px;
+}
+
+.organogram img {
+    width: 100%;
+    height: auto;
 }
