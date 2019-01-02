@@ -25,10 +25,13 @@ export default class Navigation extends React.Component {
 		this.closeDropdownEvent = this.closeDropdownEvent.bind(this);
 		this.openDropdownCompetition = this.openDropdownCompetition.bind(this);
 		this.closeDropdownCompetition = this.closeDropdownCompetition.bind(this);
+		this.openDropdownRegistration = this.openDropdownRegistration.bind(this);
+		this.closeDropdownRegistration = this.closeDropdownRegistration.bind(this);
 		this.state = {
 			isOpen: false,
 			dropdownOpenEvent: false,
 			dropdownOpenCompetition: false,
+			dropdownOpenRegistration: false,
 		};
 	}
 
@@ -37,6 +40,7 @@ export default class Navigation extends React.Component {
 			isOpen: !this.state.isOpen,
 			dropdownOpen: !prevState.dropdownOpen,
 			dropdownOpenCompetition: !prevState.dropdownOpenCompetition,
+			dropdownOpenRegistration: !prevState.dropdownOpenRegistration,
 		}));
 	}
 
@@ -54,6 +58,14 @@ export default class Navigation extends React.Component {
 
 	closeDropdownCompetition() {
 		this.setState({dropdownOpenCompetition: false})
+	}
+
+	openDropdownRegistration() {
+		this.setState({dropdownOpenRegistration: true});
+	}
+
+	closeDropdownRegistration() {
+		this.setState({dropdownOpenRegistration: false});
 	}
 
 	render() {
@@ -136,11 +148,20 @@ export default class Navigation extends React.Component {
 							</DropdownItem>
 						</DropdownMenu>
 					</Dropdown>
-					<NavItem>
-						<NavLink className="navbar-link" to="/registration/">
-							<h1><strong>REGISTRATION</strong></h1>
-						</NavLink>
-					</NavItem>
+					<Dropdown onMouseOver={this.openDropdownRegistration} onMouseLeave={this.closeDropdownRegistration} isOpen={this.state.dropdownOpenRegistration} nav inNavbar>
+						<DropdownToggle nav>
+							<NavLink className="navbar-link" to="/registration">
+								<h1><strong>REGISTRATION</strong></h1>
+							</NavLink>
+						</DropdownToggle>
+						<DropdownMenu right>
+							<DropdownItem>
+								<NavLink className="navbar-link navbar-dropdown" to="/registration/ipconvex">
+									<h1><strong>IPCONVEX</strong></h1>
+								</NavLink>
+							</DropdownItem>
+						</DropdownMenu>
+					</Dropdown>
 					<NavItem>
 						<NavLink className="navbar-link" to="/sponsor/">
 							<h1><strong>SPONSORS</strong></h1>

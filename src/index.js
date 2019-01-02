@@ -38,6 +38,11 @@ import SubmittedRegistration from './components/Registration-Form/Submitted/Subm
 import Sponsor from './components/Sponsor/Sponsor';
 import Faq from './components/Faq/Faq';
 import ConfirmedPayment from './components/Registration-Form/ConfirmPayment/ConfirmedPayment';
+import IpconvexRegistration from './components/Registration/IpconvexRegistration';
+import IpconvexMainRegistration from './components/Registration-Form/IPCONVEX/IpconvexMainRegistration';
+import StudentIpconvexRegistration from './components/Registration-Form/IPCONVEX/Student';
+import ProfessionalIpconvexRegistration from './components/Registration-Form/IPCONVEX/Professional';
+import IpconvexSubmittedRegistration from './components/Registration-Form/Submitted/IpconvexSubmitted';
 
 const store = createStore(reducers);
 
@@ -49,11 +54,16 @@ ReactDOM.render(
                 <Switch>
                     <Route path="/registration-form/option" component={ OptionRegistration } />
                     <Route path="/registration/confirmed-payment" component = { ConfirmedPayment } />
+                    <Route path="/registration-form/ipconvex" component={ IpconvexMainRegistration } />
                     <Route path="/registration-form" component={ MainPageRegistration } />
                     <Route path='/registration/plan-of-development' component={ PODRegistration } />
                     <Route path='/registration/petrodebate' component={ PetroDebateRegistration } />
                     <Route path='/registration/smart' component={ SmartRegistration } />
+                    <Route path='/registration/ipconvex/student' component={ StudentIpconvexRegistration } />
+                    <Route path='/registration/ipconvex/professional' component={ ProfessionalIpconvexRegistration } />
+                    <Route path="/registration/submitted/ipconvex/:id" component={ IpconvexSubmittedRegistration } />
                     <Route path='/registration/submitted/:id' component={ SubmittedRegistration } />
+                    <Route path='/registration/ipconvex' component={ IpconvexRegistration } />
                     <Route path="/registration" component = { Registration } />
                     <Route path='/competition/plan-of-development-competition' component = { PodCompetition } />
                     <Route path='/competition/petrodebate-competition' component = { PetroDebateCompetition } />

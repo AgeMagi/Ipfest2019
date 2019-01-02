@@ -39,6 +39,8 @@ p {
 
     margin-bottom: 10px;
     padding: 20px;
+
+    min-height: 500px;
 }
 
 .registration-content h2 {
@@ -103,4 +105,16 @@ p {
 
 .dresscode .content p {
     font-size: 20px;
+}
+
+.speaker-image-container {
+    padding: 20px;
+}
+
+.speaker-image {
+    width: 100%;
+    height: auto;
+
+    border-radius: 100%;
+    border: 3px solid black;
 }
