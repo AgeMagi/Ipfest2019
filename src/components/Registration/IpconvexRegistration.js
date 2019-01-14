@@ -26,7 +26,7 @@ const registration = [
                             <Col sm={3} className='speaker-image-container'>
                                 <img 
                                     className='speaker-image'
-                                    src={require('../../images/IPCONVEX/loader.gif')}
+                                    src={require('../../images/IPCONVEX/placeholder foto speaker.png')}
                                 />
                             </Col>
                             <Col sm={9} className='speaker-content'>
@@ -34,29 +34,28 @@ const registration = [
                                 <h6>Djoko Siswanto</h6>
                             </Col>
                         </Row>
-                        <h5>Session 2 (Regulation Season)</h5>
                         <Row className='align-items-center'>
                             <Col sm={3} className='speaker-image-container'>
                                 <img 
                                     className='speaker-image'
-                                    src={require('../../images/IPCONVEX/loader.gif')}
+                                    src={require('../../images/IPCONVEX/placeholder foto speaker.png')}
                                 />
                             </Col>
                             <Col sm={9} className='speaker-content'>
                                 <h6>Deputy of Planning Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi</h6>
-                                <h6>Jaffee Arizon Suardin</h6>
+                                <h6>Jaffee Arizon Suardin (to be confirmed)</h6>
                             </Col>
                         </Row>
                         <Row className='align-items-center'>
                             <Col sm={3} className='speaker-image-container'>
                                 <img 
                                     className='speaker-image'
-                                    src={require('../../images/IPCONVEX/loader.gif')}
+                                    src={require('../../images/IPCONVEX/placeholder foto speaker.png')}
                                 />
                             </Col>
                             <Col sm={9} className='speaker-content'>
-                                <h6>Director and COO of PT Medco Energi International </h6>
-                                <h6>Ronald Gunawan</h6>
+                                <h6>President-Secretary General of OPEC in 2004 and Minister of Energy and Mineral Resources in 2001-2004 & 2004-2009</h6>
+                                <h6>Prof . Dr .Ir . Purnomo Yusgiantoro</h6>
                             </Col>
                         </Row>
                         <h5>Session 2 (Regulation Season)</h5>
@@ -64,7 +63,7 @@ const registration = [
                             <Col sm={3} className='speaker-image-container'>
                                 <img 
                                     className='speaker-image'
-                                    src={require('../../images/IPCONVEX/loader.gif')}
+                                    src={require('../../images/IPCONVEX/placeholder foto speaker.png')}
                                 />
                             </Col>
                             <Col sm={9} className='speaker-content'>
@@ -76,11 +75,11 @@ const registration = [
                             <Col sm={3} className='speaker-image-container'>
                                 <img 
                                     className='speaker-image'
-                                    src={require('../../images/IPCONVEX/loader.gif')}
+                                    src={require('../../images/IPCONVEX/placeholder foto speaker.png')}
                                 />
                             </Col>
                             <Col sm={9} className='speaker-content'>
-                                <h6>Manager of Tertiary Recovery Pertamina EP</h6>
+                                <h6>Manager of Tertiary Recovery Pertamina EP </h6>
                                 <h6>Fransiskus Indra Purba</h6>
                             </Col>
                         </Row>
@@ -112,7 +111,7 @@ export default class IpconvexRegistration extends Component {
         this.changeRegistrationContent = this.changeRegistrationContent.bind(this);
 
         this.state = {
-            registrationContent: registration[0],
+            registrationContent: registration[2],
         }
     }
 

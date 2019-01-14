@@ -41,7 +41,7 @@ export default class StudentIpconvexRegistration extends Component {
                         if (this.state.submitted) {window.location=`http://ipfest2019.com/registration/submitted/${this.state.id}`};
                     }}></iframe>
                     <form
-                        action='https://docs.google.com/forms/u/3/d/e/1FAIpQLSfh7H0vRqCtZioKX6LvgNSxcZYQxnHTXySmgQ-v9MuUjB1Fig/formResponse'
+                        action='https://docs.google.com/forms/d/e/1FAIpQLSeG2GZFuN1SNPI0LZPB3mRvR41-NBYESDc2fre7qc-rUsHtNQ/formResponse'
                         target='hidden_iframe'
                         method='POST'
                         id='mG61Hd'
@@ -59,7 +59,7 @@ export default class StudentIpconvexRegistration extends Component {
                                 <input 
                                     type='text'
                                     className='form-control form-registration'
-                                    name='entry.1674054773'
+                                    name='entry.1444171020'
                                 />
                             </Col>
                         </Row>
@@ -71,7 +71,7 @@ export default class StudentIpconvexRegistration extends Component {
                                 <input 
                                     type='text'
                                     className='form-control form-registration-individual'
-                                    name='entry.388876215'
+                                    name='entry.226307607'
                                 />
                             </Col>
                         </Row>
@@ -83,7 +83,7 @@ export default class StudentIpconvexRegistration extends Component {
                                 <input 
                                     type='text'
                                     className='form-control form-registration-individual'
-                                    name='entry.1017345131'
+                                    name='entry.114592805'
                                 />
                             </Col>
                         </Row>
@@ -95,7 +95,7 @@ export default class StudentIpconvexRegistration extends Component {
                                 <input 
                                     type='text'
                                     className='form-control form-registration-individual'
-                                    name='entry.595254257'
+                                    name='entry.723359415'
                                 />
                             </Col>
                         </Row>
@@ -107,7 +107,7 @@ export default class StudentIpconvexRegistration extends Component {
                                 <input 
                                     type='text'
                                     className='form-control form-registration-individual'
-                                    name='entry.1582990724'
+                                    name='entry.2058827234'
                                 />
                             </Col>
                         </Row>
@@ -119,7 +119,7 @@ export default class StudentIpconvexRegistration extends Component {
                                 <input 
                                     type='text'
                                     className='form-control form-registration-individual'
-                                    name='entry.1582990724'
+                                    name='entry.1161546312'
                                 />
                             </Col>
                         </Row>
@@ -131,7 +131,7 @@ export default class StudentIpconvexRegistration extends Component {
                                 <input 
                                     type='text'
                                     className='form-control form-registration-individual'
-                                    name='entry.1582990724'
+                                    name='emailAddress'
                                 />
                             </Col>
                         </Row>

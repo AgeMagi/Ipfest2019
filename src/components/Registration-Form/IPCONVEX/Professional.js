@@ -41,16 +41,11 @@ export default class ProfessionalIpconvexRegistration extends Component {
                         if (this.state.submitted) {window.location=`http://ipfest2019.com/registration/submitted/${this.state.id}`};
                     }}></iframe>
                     <form
-                        action='https://docs.google.com/forms/u/3/d/e/1FAIpQLSfh7H0vRqCtZioKX6LvgNSxcZYQxnHTXySmgQ-v9MuUjB1Fig/formResponse'
+                        action='https://docs.google.com/forms/d/e/1FAIpQLSdPoelkWPr0E23pp78VjQke9PnzWQUGrsTUd9XlL_YYEAbWTg/formResponse'
                         target='hidden_iframe'
                         method='POST'
                         id='mG61Hd'
                     >
-                        <input 
-                            type='hidden'
-                            value={this.state.id}
-                            name='entry.1242528204'
-                        />
                         <Row>
                             <Col sm={4}>
                                 <h2>FULL NAME</h2>
@@ -59,7 +54,7 @@ export default class ProfessionalIpconvexRegistration extends Component {
                                 <input 
                                     type='text'
                                     className='form-control form-registration'
-                                    name='entry.1674054773'
+                                    name='entry.2035698508'
                                 />
                             </Col>
                         </Row>
@@ -71,7 +66,7 @@ export default class ProfessionalIpconvexRegistration extends Component {
                                 <input 
                                     type='text'
                                     className='form-control form-registration-individual'
-                                    name='entry.388876215'
+                                    name='entry.1532072333'
                                 />
                             </Col>
                         </Row>
@@ -83,7 +78,7 @@ export default class ProfessionalIpconvexRegistration extends Component {
                                 <input 
                                     type='text'
                                     className='form-control form-registration-individual'
-                                    name='entry.1582990724'
+                                    name='entry.1920250052'
                                 />
                             </Col>
                         </Row>
@@ -95,7 +90,7 @@ export default class ProfessionalIpconvexRegistration extends Component {
                                 <input 
                                     type='text'
                                     className='form-control form-registration-individual'
-                                    name='entry.1582990724'
+                                    name='entry.359461157'
                                 />
                             </Col>
                         </Row>
@@ -107,7 +102,7 @@ export default class ProfessionalIpconvexRegistration extends Component {
                                 <input 
                                     type='text'
                                     className='form-control form-registration-individual'
-                                    name='entry.1582990724'
+                                    name='entry.1459916030'
                                 />
                             </Col>
                         </Row>
