@@ -38,7 +38,7 @@ export default class ProfessionalIpconvexRegistration extends Component {
                         <h1>INTEGRATED PETROLEUM CONVENTION & EXHIBITION 2019</h1>
                     </div>
                     <iframe name='hidden_iframe' id='hidden_iframe' className='hidden_iframe' onLoad={() => {
-                        if (this.state.submitted) {window.location=`http://ipfest2019.com/registration/submitted/${this.state.id}`};
+                        if (this.state.submitted) {window.location=`http://ipfest2019.com/registration/submitted/ipconvex/${this.state.id}`};
                     }}></iframe>
                     <form
                         action='https://docs.google.com/forms/d/e/1FAIpQLSdPoelkWPr0E23pp78VjQke9PnzWQUGrsTUd9XlL_YYEAbWTg/formResponse'

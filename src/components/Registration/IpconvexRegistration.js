@@ -21,7 +21,19 @@ const registration = [
     {
         'title': 'Speakers',
         'content':  <div>
-                        <h5>Session 1 (Keynote Speaker)</h5>
+                        <h5>Session 1 (Regulation Session)</h5>
+                        <Row className='align-items-center'>
+                            <Col sm={3} className='speaker-image-container'>
+                                <img 
+                                    className='speaker-image'
+                                    src={require('../../images/IPCONVEX/placeholder foto speaker.png')}
+                                />
+                            </Col>
+                            <Col sm={9} className='speaker-content'>
+                                <h6>President-Secretary General of OPEC in 2004 and Minister of Energy and Mineral Resources in 2001-2004 & 2004-2009</h6>
+                                <h6>Prof&#8228; Dr&#8228; Ir&#8228; Purnomo Yusgiantoro</h6>
+                            </Col>
+                        </Row>
                         <Row className='align-items-center'>
                             <Col sm={3} className='speaker-image-container'>
                                 <img 
@@ -46,18 +58,6 @@ const registration = [
                                 <h6>Jaffee Arizon Suardin (to be confirmed)</h6>
                             </Col>
                         </Row>
-                        <Row className='align-items-center'>
-                            <Col sm={3} className='speaker-image-container'>
-                                <img 
-                                    className='speaker-image'
-                                    src={require('../../images/IPCONVEX/placeholder foto speaker.png')}
-                                />
-                            </Col>
-                            <Col sm={9} className='speaker-content'>
-                                <h6>President-Secretary General of OPEC in 2004 and Minister of Energy and Mineral Resources in 2001-2004 & 2004-2009</h6>
-                                <h6>Prof . Dr .Ir . Purnomo Yusgiantoro</h6>
-                            </Col>
-                        </Row>
                         <h5>Session 2 (Regulation Season)</h5>
                         <Row className='align-items-center'>
                             <Col sm={3} className='speaker-image-container'>
@@ -68,7 +68,7 @@ const registration = [
                             </Col>
                             <Col sm={9} className='speaker-content'>
                                 <h6>Chairman Society of Indonesian Petroleum Engineer </h6>
-                                <h6>Prof.Ir. Tutuka Ariadji M.Sc.,Ph.D</h6>
+                                <h6>Prof&#8228; Ir&#8228; Tutuka Ariadji M&#8228;Sc&#8228;,Ph&#8228;D</h6>
                             </Col>
                         </Row>
                         <Row className='align-items-center'>
@@ -96,7 +96,8 @@ const registration = [
     {
         'title': 'Payment',
         'content':  <div>
-                        <p>The payment fees are IDR 25.000 include Seminar Kit, Snack, and Certificate.</p>
+                        <p>The payment fees are IDR 30.000 include Seminar Kit, Snack, and Certificate.</p>
+                        <p>As for professionals, the payment fes are IDR 35,000</p>
                         <br/>
                         <p>The payment can be done via online or offline. For via online, you can transfered to Mandiri with  account number 1300016287826 named Integrated Petroleum Festival. After paying the registration fees, you need to confirm your payment by showing the receipt payment to treasurer (Elizabeth Benedicta Pratidina Sinaga, Phone Number : 08568483488, LINE ID Number : elizabethbenedicta). For via offline, you can pay directly to the IPCONVEX booth located near ATM Center at Bandung Institute of Technology.</p>
                         <br/>
@@ -111,7 +112,7 @@ export default class IpconvexRegistration extends Component {
         this.changeRegistrationContent = this.changeRegistrationContent.bind(this);
 
         this.state = {
-            registrationContent: registration[2],
+            registrationContent: registration[0],
         }
     }
 
