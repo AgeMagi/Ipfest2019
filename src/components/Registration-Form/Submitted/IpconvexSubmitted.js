@@ -27,10 +27,15 @@ export default class IpconvexSubmittedRegistration extends Component {
                             <div className='submitted-content'>
                                 <h2>Thank you for joining Integrated Petroleum Convention and Exhibition (IPCONVEX) 2019&#8228; Entering the event requires participants to pay entry fee&#8228;</h2>
                                 <div className="submit-id">
-                                    <h4>For students, the payment fees are IDR 30,000 include Seminar Kit, Snack, and Certificate&#8228;</h4>
+                                    <h4>For students, the payment fee is IDR 30,000 include Seminar Kit, Snack, and Certificate&#8228;</h4>
                                     <h4>As for professionals, the payment fes are IDR 35,000</h4>
                                     <br />
-                                    <h4>The payment can be done via online or offline&#8228; For via online, you can transfered to Mandiri with  account number 1300016287826 named Integrated Petroleum Festival&#8228; After paying the registration fees, you need to confirm your payment by showing the receipt payment to treasurer (Elizabeth Benedicta Pratidina Sinaga, Phone Number : 08568483488, LINE ID Number : elizabethbenedicta)&#8228; For via offline, you can pay directly to the IPCONVEX booth located near ATM Center at Bandung Institute of Technology&#8228;</h4>
+                                    <h4>The payment can be done via online or offline&#8228; For via online, you can transfer to:</h4>
+                                    <h4>1300016287826</h4>
+                                    <h4>Mandiri</h4>
+                                    <h4>Integrated Petroleum Festival</h4>
+                                    <br />
+                                    <h4>After paying the registration fees, you need to confirm your payment by showing the receipt payment to treasurer (Elizabeth Benedicta Pratidina Sinaga, Phone Number : 08568483488, LINE ID Number : elizabethbenedicta)&#8228; For via offline, you can pay directly to the IPCONVEX booth located near ATM Center at Bandung Institute of Technology&#8228;</h4>
                                     <br />
                                     <h4>For more information, you can contact us through CP : Luke Baskoro ( Phone Number : 081554414145, LINE ID Number : lukebaskoro20) or by clicking our social media butons below&#8228;</h4>
                                 </div>

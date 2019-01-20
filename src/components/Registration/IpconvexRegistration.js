@@ -96,10 +96,15 @@ const registration = [
     {
         'title': 'Payment',
         'content':  <div>
-                        <p>The payment fees are IDR 30.000 include Seminar Kit, Snack, and Certificate.</p>
-                        <p>As for professionals, the payment fes are IDR 35,000</p>
+                        <p>The payment fee is IDR 30.000 include Seminar Kit, Snack, and Certificate.</p>
+                        <p>As for professionals, the payment fee is IDR 35,000</p>
                         <br/>
-                        <p>The payment can be done via online or offline. For via online, you can transfered to Mandiri with  account number 1300016287826 named Integrated Petroleum Festival. After paying the registration fees, you need to confirm your payment by showing the receipt payment to treasurer (Elizabeth Benedicta Pratidina Sinaga, Phone Number : 08568483488, LINE ID Number : elizabethbenedicta). For via offline, you can pay directly to the IPCONVEX booth located near ATM Center at Bandung Institute of Technology.</p>
+                        <p>The payment can be done via online or offline. For via online, you can transfer to:</p>
+                        <p>1300016287826</p>
+                        <p>Mandiri</p>
+                        <p>Integrated Petroleum Festival</p>
+                        <br />
+                        <p>After paying the registration fees, you need to confirm your payment by showing the receipt payment to treasurer (Elizabeth Benedicta Pratidina Sinaga, Phone Number : 08568483488, LINE ID Number : elizabethbenedicta). For via offline, you can pay directly to the IPCONVEX booth located near ATM Center at Bandung Institute of Technology.</p>
                         <br/>
                         <p>CP : Luke Baskoro ( Phone Number : 081554414145, LINE ID Number : lukebaskoro20).</p>
                     </div>
