@@ -26,19 +26,19 @@ const registration = [
                             <Col sm={3} className='speaker-image-container'>
                                 <img 
                                     className='speaker-image'
-                                    src={require('../../images/IPCONVEX/placeholder foto speaker.png')}
+                                    src={require('../../images/IPCONVEX/Purnomo Yusgiantoro.jpg.png')}
                                 />
                             </Col>
                             <Col sm={9} className='speaker-content'>
                                 <h6>President-Secretary General of OPEC in 2004 and Minister of Energy and Mineral Resources in 2001-2004 & 2004-2009</h6>
-                                <h6>Prof&#8228; Dr&#8228; Ir&#8228; Purnomo Yusgiantoro</h6>
+                                <h6>Prof&#8228; Dr&#8228; Ir&#8228; Purnomo Yusgiantoro (to be confirmed)</h6>
                             </Col>
                         </Row>
                         <Row className='align-items-center'>
                             <Col sm={3} className='speaker-image-container'>
                                 <img 
                                     className='speaker-image'
-                                    src={require('../../images/IPCONVEX/placeholder foto speaker.png')}
+                                    src={require('../../images/IPCONVEX/Djoko Siswanto.jpg.png')}
                                 />
                             </Col>
                             <Col sm={9} className='speaker-content'>
@@ -63,7 +63,7 @@ const registration = [
                             <Col sm={3} className='speaker-image-container'>
                                 <img 
                                     className='speaker-image'
-                                    src={require('../../images/IPCONVEX/placeholder foto speaker.png')}
+                                    src={require('../../images/IPCONVEX/Tutuka Ariadji.jpg.png')}
                                 />
                             </Col>
                             <Col sm={9} className='speaker-content'>
@@ -75,7 +75,7 @@ const registration = [
                             <Col sm={3} className='speaker-image-container'>
                                 <img 
                                     className='speaker-image'
-                                    src={require('../../images/IPCONVEX/placeholder foto speaker.png')}
+                                    src={require('../../images/IPCONVEX/Indra.jpg.png')}
                                 />
                             </Col>
                             <Col sm={9} className='speaker-content'>
