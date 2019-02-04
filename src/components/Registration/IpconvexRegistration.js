@@ -46,18 +46,6 @@ const registration = [
                                 <h6>Djoko Siswanto</h6>
                             </Col>
                         </Row>
-                        <Row className='align-items-center'>
-                            <Col sm={3} className='speaker-image-container'>
-                                <img 
-                                    className='speaker-image'
-                                    src={require('../../images/IPCONVEX/placeholder foto speaker.png')}
-                                />
-                            </Col>
-                            <Col sm={9} className='speaker-content'>
-                                <h6>Deputy of Planning Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi</h6>
-                                <h6>Jaffee Arizon Suardin (to be confirmed)</h6>
-                            </Col>
-                        </Row>
                         <h5>Session 2 (Regulation Season)</h5>
                         <Row className='align-items-center'>
                             <Col sm={3} className='speaker-image-container'>
@@ -69,18 +57,6 @@ const registration = [
                             <Col sm={9} className='speaker-content'>
                                 <h6>Chairman Society of Indonesian Petroleum Engineer </h6>
                                 <h6>Prof&#8228; Ir&#8228; Tutuka Ariadji M&#8228;Sc&#8228;,Ph&#8228;D</h6>
-                            </Col>
-                        </Row>
-                        <Row className='align-items-center'>
-                            <Col sm={3} className='speaker-image-container'>
-                                <img 
-                                    className='speaker-image'
-                                    src={require('../../images/IPCONVEX/Indra.jpg.png')}
-                                />
-                            </Col>
-                            <Col sm={9} className='speaker-content'>
-                                <h6>Manager of Tertiary Recovery Pertamina EP </h6>
-                                <h6>Fransiskus Indra Purba</h6>
                             </Col>
                         </Row>
                     </div>
