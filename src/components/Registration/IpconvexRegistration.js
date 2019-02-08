@@ -153,11 +153,6 @@ export default class IpconvexRegistration extends Component {
                                 </div>
                             </Link>    
                         </Col>
-                        <Col sm={4} className='registration-button-blue'>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc7vEPtt-VApZs0qSrYdFSEblz6n_gO5IsSy6ugGktXBowYxw/viewform" target="__blank">
-                                <h4>CONFIRM YOUR PAYMENT</h4>
-                            </a>                            
-                        </Col>
                     </Row>
                 </Container>
             </div>
