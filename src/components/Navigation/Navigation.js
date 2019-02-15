@@ -148,7 +148,12 @@ export default class Navigation extends React.Component {
 							</DropdownItem>
 						</DropdownMenu>
 					</Dropdown>
-					<Dropdown onMouseOver={this.openDropdownRegistration} onMouseLeave={this.closeDropdownRegistration} isOpen={this.state.dropdownOpenRegistration} nav inNavbar>
+					<NavItem>
+						<NavLink className="navbar-link" to="/media-partner/">
+							<h1><strong>Media Partner</strong></h1>
+						</NavLink>
+					</NavItem>
+					{/* <Dropdown onMouseOver={this.openDropdownRegistration} onMouseLeave={this.closeDropdownRegistration} isOpen={this.state.dropdownOpenRegistration} nav inNavbar>
 						<DropdownToggle nav>
 							<NavLink className="navbar-link" to="/registration">
 								<h1><strong>REGISTRATION</strong></h1>
@@ -161,7 +166,7 @@ export default class Navigation extends React.Component {
 								</NavLink>
 							</DropdownItem>
 						</DropdownMenu>
-					</Dropdown>
+					</Dropdown> */}
 					<NavItem>
 						<NavLink className="navbar-link" to="/sponsor/">
 							<h1><strong>SPONSORS</strong></h1>

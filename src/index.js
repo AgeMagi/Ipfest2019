@@ -43,6 +43,7 @@ import IpconvexMainRegistration from './components/Registration-Form/IPCONVEX/Ip
 import StudentIpconvexRegistration from './components/Registration-Form/IPCONVEX/Student';
 import ProfessionalIpconvexRegistration from './components/Registration-Form/IPCONVEX/Professional';
 import IpconvexSubmittedRegistration from './components/Registration-Form/Submitted/IpconvexSubmitted';
+import MediaPartner from './components/MediaPartner/MediaPartner';
 
 const store = createStore(reducers);
 
@@ -78,6 +79,7 @@ ReactDOM.render(
                     <Route path='/event' component = {Event} />
                     <Route path='/about' component = {About} />
                     <Route path='/sponsor' component={Sponsor} />
+                    <Route path='/media-partner' component={MediaPartner} />
                     <Route path='/faq' component={Faq} />
                     <Route path='/' component = {Home}/>
                 </Switch>
