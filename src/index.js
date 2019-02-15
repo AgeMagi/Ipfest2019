@@ -52,10 +52,10 @@ ReactDOM.render(
             <div>
                 <Navigation />
                 <Switch>
-                    <Route path="/registration-form/option" component={ OptionRegistration } />
+                    {/* <Route path="/registration-form/option" component={ OptionRegistration } /> */}
                     <Route path="/registration/confirmed-payment" component = { ConfirmedPayment } />
-                    <Route path="/registration-form/ipconvex" component={ IpconvexMainRegistration } />
-                    <Route path="/registration-form" component={ MainPageRegistration } />
+                    {/* <Route path="/registration-form/ipconvex" component={ IpconvexMainRegistration } /> */}
+                    {/* <Route path="/registration-form" component={ MainPageRegistration } /> */}
                     <Route path='/registration/plan-of-development' component={ PODRegistration } />
                     <Route path='/registration/petrodebate' component={ PetroDebateRegistration } />
                     <Route path='/registration/smart' component={ SmartRegistration } />
