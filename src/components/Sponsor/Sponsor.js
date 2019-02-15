@@ -12,9 +12,9 @@ export default class Sponsor extends Component {
         return(
             <div className='sponsor'>
                 <div className='title'>
-                    <img 
+                    {/* <img 
                         src={require('../../images/Sponsor/Sponsors.png')}
-                    />
+                    /> */}
                 </div>
                 <div className="sponsors">
                     
