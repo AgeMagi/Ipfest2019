@@ -24,6 +24,30 @@
 
 .sponsors {
     text-align: center;
+    padding-bottom: 40px;
+}
+
+.sponsors h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.sponsors img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.sponsors p {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sponsors li {
+    text-align: left;
 }
 
 .sponsors img {
